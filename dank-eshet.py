@@ -10,10 +10,11 @@ requests_log.propagate = True
 
 
 def get_data(start_date, end_date):
-    print('Getting data from {} to {}'.format(start_date.format('MM/DD/YYYY'), end_date.format('MM/DD/YYYY')))
-    data = {'sDate': '09/14/2015', 'eDate': '09/15/2015', 'Submit': 'Submit'}
+    start = start_date.format('MM/DD/YYYY')
+    end = end_date.format('MM/DD/YYYY')
+    print('Getting data from {} to {}'.format(start, end))
+    data = {'sDate': start, 'eDate': end, 'Submit': 'Submit'}
     res = requests.post('http://www.austintexas.gov/oss_permits/permit_report.cfm', data=data)
-
     print(res.status_code, res.request.url)
     if not res.ok:
         print(res.headers)
