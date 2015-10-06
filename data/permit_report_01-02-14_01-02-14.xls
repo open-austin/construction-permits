@@ -1,0 +1,6405 @@
+
+
+<table border="1">
+	<tr>
+		<th>permit_number</th>
+		<th>sub_type</th>
+		<th>work_type</th>
+		<th>permit_location</th>
+		<th>date_issued</th>
+		<th>work_description</th>
+		<th>status</th>
+		<th>folder_owner</th>
+		<th>folder_owner_addrhouse</th>
+		<th>folder_owner_addrstreet</th>
+		<th>folder_owner_addrstreettype</th>
+		<th>folder_owner_addrunittype</th>
+		<th>folder_owner_addrunit</th>
+		<th>folder_owner_addrcity</th>
+		<th>folder_owner_addrprovince</th>
+		<th>folder_owner_addrpostal</th>
+		<th>folder_owner_phone</th>
+		<th>property_owner</th>
+		<th>property_owner_addrhouse</th>
+		<th>property_owner_addrstreet</th>
+		<th>property_owner_addrstreettype</th>
+		<th>property_owner_addrunittype</th>
+		<th>property_owner_addrunit</th>
+		<th>property_owner_addrcity</th>
+		<th>property_owner_addrprovince</th>
+		<th>property_owner_addrpostal</th>
+		<th>property_owner_phone</th>
+		<th>total_existing_bldg_footage</th>
+		<th>total_new_add_footage</th>
+		<th>total_valuation_remodel</th>
+		<th>total_job_valuation</th>
+		<th>remodel_repair_footage</th>
+		<th>number_of_units</th>
+		<th>usage_category</th>
+		<th>legal_description</th>
+	</tr>
+
+	<tr>
+		<td>2013-035752 EP</td>
+		<td>R- 329 Res Structures Other Than Bldg </td>
+		<td>New</td>
+		<td>207 E 44TH ST</td>
+		<td>01/02/2014</td>
+		<td>New pool</td>
+		<td>Final</td>
+		<td>Jimmie Barnett, Barnett Electric</td>
+		<td>130</td>
+		<td>North Austin</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Paige</td>
+		<td>TX</td>
+		<td>78659</td>
+		<td>(512) 626-3170</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>352</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 1 Block:   Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-069722 PP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>4614 WINDY BROOK DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered front and rear porch.</td>
+		<td>Final</td>
+		<td>Eusebio L Ortiz, La Casita Plumbing</td>
+		<td>5515</td>
+		<td>Bitterwood</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78724</td>
+		<td>(512) 677-8038</td>
+		<td>WINDY BROOK CONSTRUCTION COMPANY LLC</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78723</td>
+		<td></td>
+		<td></td>
+		<td>2250</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 9 Block: 2 Subdivision: DEVONSHIRE PARK SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-069722 PP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>4614 WINDY BROOK DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered front and rear porch.</td>
+		<td>Final</td>
+		<td>Eusebio L Ortiz, La Casita Plumbing</td>
+		<td>5515</td>
+		<td>Bitterwood</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78724</td>
+		<td>(512) 677-8038</td>
+		<td>DEVONSHIRE PARK LIMITED PARTNERSHIP</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78759 8214</td>
+		<td></td>
+		<td></td>
+		<td>2250</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 9 Block: 2 Subdivision: DEVONSHIRE PARK SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-070624 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>11616 SATCHEL DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT**</td>
+		<td>Final</td>
+		<td>Kirt Lamontagne, Christianson Plumbing & Air Co</td>
+		<td>1950</td>
+		<td>Louis Henna </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock </td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 246-5200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2319</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 12 BLK A PIONEER CROSSING WEST SEC 10</td>
+	</tr>
+
+	<tr>
+		<td>2013-070654 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>11604 SATCHEL DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Kirt Lamontagne, Christianson Plumbing & Air Co</td>
+		<td>1950</td>
+		<td>Louis Henna </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock </td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 246-5200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2472</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-070673 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>11608 SATCHEL DR</td>
+		<td>01/02/2014</td>
+		<td>New 1-story single-family residence, attached garage, covered porch and patio.  **VOL BUILD PROJECT**</td>
+		<td>Final</td>
+		<td>Kirt Lamontagne, Christianson Plumbing & Air Co</td>
+		<td>1950</td>
+		<td>Louis Henna </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock </td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 246-5200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2090</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 14 BLK A PIONEER CROSSING WEST SEC 10</td>
+	</tr>
+
+	<tr>
+		<td>2013-080456 MP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>811 E 32ND ST</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel to existing Medical Office(Dental)</td>
+		<td>Final</td>
+		<td>Roger R Rodriguez, C B Service Co.</td>
+		<td>15381</td>
+		<td>Tradesman</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78249</td>
+		<td>(210) 764-2004</td>
+		<td>SEYMOUR DEVELOPMENT L P % DR YOUNGKIN JEFF1</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78705 2529</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2037</td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-080456 MP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>811 E 32ND ST</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel to existing Medical Office(Dental)</td>
+		<td>Final</td>
+		<td>Roger R Rodriguez, C B Service Co.</td>
+		<td>15381</td>
+		<td>Tradesman</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78249</td>
+		<td>(210) 764-2004</td>
+		<td>CONFIDO PRIMUS LLC</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78745</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2037</td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-097703 EP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>4107 BURNET RD</td>
+		<td>01/02/2014</td>
+		<td>Complete Interior Remodel, adding Bathroom.  Replace columns at existing porch and carport.  Replace roof, replace damaged decking, new hardie soffit, new attic insulation.  New/repair drywall, minor framing revisions, new interior doors, replace cracked window glass, new window screens.  New flooring and base, finishes, cabinets, appliances.  Plumbing: replace existing fixtures, add new fixtures to added Bath.  Electrical:  bring electrical up to code, new light fixtures, switches, receptacles.  Mechanical:  new HVAC system in attic and add bathroom exhaust.</td>
+		<td>Final</td>
+		<td>Brian Dunman, Dunman Electic</td>
+		<td>3304</td>
+		<td>Spotted Horse</td>
+		<td>Trl</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78748</td>
+		<td>(512) 303-4694</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>910</td>
+		<td>1</td>
+		<td>0</td>
+		<td>PT OF LOT 8 HANCOCK LEWIS SUBD(TR 1 UNRECORDED RESUB OF LT 8)</td>
+	</tr>
+
+	<tr>
+		<td>2013-099352 MP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>1707 W 32ND ST</td>
+		<td>01/02/2014</td>
+		<td>Addition/remodel to existing single family residence to include:  new eastside one story addition, new second floor addition, new entry porch, new covered back patio, new attached pool house, and new attached garage.  Partial demo of primary residence for work noted above.</td>
+		<td>Final</td>
+		<td>George Christianson, Casa Mechanical Services</td>
+		<td>2401</td>
+		<td>Old Settlers</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78665</td>
+		<td>(512) 334-7300</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1376</td>
+		<td>2883</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 1 BLK 1 BRYKERWOODS F</td>
+	</tr>
+
+	<tr>
+		<td>2013-099915 EP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>2004 DE VERNE ST</td>
+		<td>01/02/2014</td>
+		<td>Partial demo for addition of 1-story bedroom/bathroom and utility closet</td>
+		<td>Final</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td>TOWNSEND RICHARD & NANCY</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78703 3925</td>
+		<td></td>
+		<td>1271</td>
+		<td>484</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 14 Block: 1 Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-100360 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>3917 SIERRA DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single family residence on existing slab with adjacent new foundations to be poured.  Residence to have (5) bedrooms, (4) bathrooms and an attached 2-car garage.</td>
+		<td>Final</td>
+		<td>John Austin Williams, Stan's Heating and Air Conditioning</td>
+		<td>9200</td>
+		<td>WATERFORD CENTRE</td>
+		<td>BLVD</td>
+		<td>Suite</td>
+		<td>100</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78758</td>
+		<td>(512) 929-9393</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>4981</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 14 BLK B NORTHWEST HILLS SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-109582 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>5916 RED BUD RIDGE LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story Condominium Residence with attached garage(s), covered porch.</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2031</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-109586 PP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>2602 BERKETT DR</td>
+		<td>01/02/2014</td>
+		<td>Removing sheetrock, upgrade insulation, electrical fixtures, plumbing fixtures.  New tile, trim, and cabinets.  Replace front door.</td>
+		<td>Expired</td>
+		<td>George Christianson, Casa Mechanical Services</td>
+		<td>2401</td>
+		<td>Old Settlers</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78665</td>
+		<td>(512) 334-7300</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 11 BLK C VILLAGE SEC 2 THE</td>
+	</tr>
+
+	<tr>
+		<td>2013-109896 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>5501 MULBERRY MIST CT</td>
+		<td>01/02/2014</td>
+		<td>New 2-story Condominium Residence with attached garage(s), covered porch and patio.</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2417</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-109916 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>9812 MILLA CIR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story Condominium Residence with attached garage(s), covered porch.</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2677</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-111904 PP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>4518 AVENUE D</td>
+		<td>01/02/2014</td>
+		<td>Partial demolition of roof structure to create addtn of 2nd story above exist 1 story sf res to include master suite, bdrm, bath, interior stairs, W/D hook-ups. Rmdl to exst 1st story kitchen, remove 1st floor bdrms, remove exst full bath and create half bath. Associated elec/mech/plmg work. Install city sidewalk, upgrade exst driveway apron to current standard. Also replacing ex pmt # 13-018198 to replace sewer yard line.</td>
+		<td>Final</td>
+		<td>Gerson D Avalos, 4U Plumbing</td>
+		<td>3512</td>
+		<td>LONG DAY</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78754</td>
+		<td>(512) 940-3734</td>
+		<td>CLEAR BLUE SKY PROPERTIES INC</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78748 3067</td>
+		<td></td>
+		<td>0</td>
+		<td>899</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 24 Block: 6 Subdivision: HYDE PARK ANNEX  1898</td>
+	</tr>
+
+	<tr>
+		<td>2013-112807 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>5928 RED BUD RIDGE LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story Condominium Residence with attached garage(s), covered porch.</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2031</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-112967 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>2449 WESTLAKE DR</td>
+		<td>01/02/2014</td>
+		<td>Interior Remodel to existing Multi-Family Res Condominium</td>
+		<td>Final</td>
+		<td>Donald Verbeke, VERBEKE CONSTRUCT</td>
+		<td>2207</td>
+		<td>Drue</td>
+		<td>LN</td>
+		<td></td>
+		<td></td>
+		<td>CEDAR PARK</td>
+		<td>TX</td>
+		<td>78613</td>
+		<td>(512) 480-8700</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>217500</td>
+		<td></td>
+		<td>2959</td>
+		<td>1</td>
+		<td>0</td>
+		<td>UNT 25 BLD 8 ORLEANS HARBOR CONDOMINIUMS AMENDED PLUS 3.0303% INT IN COMMON AREA</td>
+	</tr>
+
+	<tr>
+		<td>2013-114444 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>6829 TREVONE PATH</td>
+		<td>01/02/2014</td>
+		<td>New 1-story single-family residence, attached garage, covered porch and patio. **VOL BUILD PROJECT** **RESOLUTION #20071129-100 WAIVES FEES FOR THIS SMART HOUSING PROJECT**.  </td>
+		<td>Final</td>
+		<td>Kirt Lamontagne, Christianson Plumbing & Air Co</td>
+		<td>1950</td>
+		<td>Louis Henna </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock </td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 246-5200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2160</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-115036 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>11000 RODERICK LAWSON LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Kirt Lamontagne, Christianson Plumbing & Air Co</td>
+		<td>1950</td>
+		<td>Louis Henna </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock </td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 246-5200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2761</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-115123 EP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>2815 GARWOOD ST</td>
+		<td>01/02/2014</td>
+		<td>interior remodel, also upgrading electrical service. 
+</td>
+		<td>Final</td>
+		<td>Grant Campbell, Southern Cross Electric</td>
+		<td>7305</td>
+		<td>Trenton</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78736</td>
+		<td>(512) 775-8774</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>401</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 19 BLK 1 OLT 26-27 DIV A CHERNOSKY NO 11</td>
+	</tr>
+
+	<tr>
+		<td>2013-115124 EP</td>
+		<td>R- 102 Secondary Apartment</td>
+		<td>New</td>
+		<td>2815 GARWOOD ST # B</td>
+		<td>01/02/2014</td>
+		<td>new secondary apartment with garage
+</td>
+		<td>Final</td>
+		<td>Grant Campbell, Southern Cross Electric</td>
+		<td>7305</td>
+		<td>Trenton</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78736</td>
+		<td>(512) 775-8774</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>810</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 19 BLK 1 OLT 26-27 DIV A CHERNOSKY NO 11</td>
+	</tr>
+
+	<tr>
+		<td>2013-116630 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>11604 GAELIC DR</td>
+		<td>01/02/2014</td>
+		<td>New 1-story single-family residence, attached garage, covered porch and patio. **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>George Christianson, Casa Mechanical Services</td>
+		<td>2401</td>
+		<td>Old Settlers</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78665</td>
+		<td>(512) 334-7300</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2584</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 40 BLK F STIRLING BRIDGE SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-116968 MP</td>
+		<td>C-1001 Commercial Finish Out</td>
+		<td>Remodel</td>
+		<td>14028 N US 183 HWY SVRD SB UNIT 230</td>
+		<td>01/02/2014</td>
+		<td>Tenant Finish-Out for Restaurant w/Dining Patio (HVAC ONLY)</td>
+		<td>Final</td>
+		<td>Matthew C Dunn, MAD Company Mechanical LLC</td>
+		<td>2028</td>
+		<td>Wayward Sun</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78754</td>
+		<td>(512) 731-6736</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5946</td>
+		<td>1</td>
+		<td>0</td>
+		<td>S10312 - LAKELINE RETAIL SEC 1 (BLK A LTS 1 & 3 AMD), BLOCK A, Lot 1A pt, ACRES 17.031</td>
+	</tr>
+
+	<tr>
+		<td>2013-118526 PP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>1101 CHERICO ST</td>
+		<td>01/02/2014</td>
+		<td>Partial demo to some windows to make larger, one window will be replaced with a door. Interior remodel of entire house; new bath with new fixtures, new kitchen with new appliances and fixtures, new siding, new washer and dryer area.  Exterior windows and doors replaced.  New raised ceiling in living room to be vaulted.  New HVAC system.</td>
+		<td>Final</td>
+		<td>Steve Maldonado, Alta Vista Plumbing Inc.</td>
+		<td>119</td>
+		<td>Verna Spur</td>
+		<td>ST</td>
+		<td>Unit</td>
+		<td>B</td>
+		<td>Georgetown</td>
+		<td>TX</td>
+		<td>78628</td>
+		<td>(512) 591-5810</td>
+		<td>Jennifer Ann Ehman, </td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78702 3705</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1104</td>
+		<td>1</td>
+		<td>0</td>
+		<td>TRT A-1 OLT 41-42 DIV A RESUB TRTS A&B HOODS EASTSIDE CHERICO SUBD NO 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-119521 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>6817 ASHEN LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch.  **VOL BUILD PROJECT** **RESOLUTION #20071129-100 WAIVES FEES FOR THIS SMART HOUSING PROJECT**</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2478</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-120459 MP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>10700 JONWOOD WAY</td>
+		<td>01/02/2014</td>
+		<td>Remodel repair for fire damage</td>
+		<td>Final</td>
+		<td>Lewis Dalton, Capital One Enterprises</td>
+		<td>609</td>
+		<td>Riva Ridge</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Leander</td>
+		<td>TX</td>
+		<td>78641</td>
+		<td>(512) 630-3104</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-121604 MP</td>
+		<td>C- 328 Commercial Other Nonresident Bldg</td>
+		<td>New</td>
+		<td>11920 DOMAIN DR</td>
+		<td>01/02/2014</td>
+		<td>New Pre-Fab Building for Food Sales</td>
+		<td>Final</td>
+		<td>Tyler Miloy, Texas Comfort Specialists</td>
+		<td>1901</td>
+		<td>PEQUENO</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 524-2501</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>160</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-121915 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>316 BANIN MALONE LN</td>
+		<td>01/02/2014</td>
+		<td>New 1-story single-family residence, attached garage, covered porch and patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Bryan Neal, Powerhouse Electrical Services, Inc.</td>
+		<td>503</td>
+		<td>Farley</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78753</td>
+		<td>(512) 832-8900</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2408</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-121948 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>9416 SYDNEY MARILYN LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Bryan Neal, Powerhouse Electrical Services, Inc.</td>
+		<td>503</td>
+		<td>Farley</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78753</td>
+		<td>(512) 832-8900</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>3039</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-123453 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>1405 MEADOWSOUTH LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Seth Robinson, In Charge Electrical Services, LLC</td>
+		<td>16808</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 778-6240</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>3038</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-124728 EP</td>
+		<td>C-1001 Commercial Finish Out</td>
+		<td>Remodel</td>
+		<td>11305 FOUR POINTS DR BLDG 2 UNIT 200</td>
+		<td>01/02/2014</td>
+		<td>Tenant finish out Admin/Bus/Prof Office</td>
+		<td>Final</td>
+		<td>James Rust, Rust Electrical Service Inc.</td>
+		<td>401</td>
+		<td>Cole</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78737</td>
+		<td>(512) 301-5171</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5161</td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-125686 PP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>11324 SAVIN HILL LN</td>
+		<td>01/02/2014</td>
+		<td>Remodel existing kitchen and master bath.  Fixtures will remain in same place.  Floorplan will remain the same. No interior walls being demolished.</td>
+		<td>Final</td>
+		<td>Isaac D Lopez, Elite Plumbing</td>
+		<td>10007</td>
+		<td>Hermes</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78725</td>
+		<td>(512) 284-6859</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 39 Block:   Subdivision: CIRCLE C RANCH PHASE B, SECTION 13</td>
+	</tr>
+
+	<tr>
+		<td>2013-125731 EP</td>
+		<td>C-1001 Commercial Finish Out</td>
+		<td>Remodel</td>
+		<td>602 E 4TH ST</td>
+		<td>01/02/2014</td>
+		<td>Tenant Finish-out to create Retail.</td>
+		<td>Final</td>
+		<td>John Verhelst, VA Electrical Contractors LLC</td>
+		<td>766</td>
+		<td>Rosemary </td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>New Braunfels </td>
+		<td>TX</td>
+		<td>78130</td>
+		<td>(830) 620-5899</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>4092</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 3 Block:   Subdivision: OUTLOT 38 DIVISION E</td>
+	</tr>
+
+	<tr>
+		<td>2013-125743 MP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>2700 COATBRIDGE DR</td>
+		<td>01/02/2014</td>
+		<td>New drywall, insullation.  Convert tub to shower in master bedroom.  Replace valve in hall bathroom.  Move gas line in kitchen.  Ungrade electrical service. Sheetrock removal was limited to 24" off floor.</td>
+		<td>Final</td>
+		<td>Robert C Henderson, Austin Air Conditioning, Inc.</td>
+		<td>13620</td>
+		<td>IMMANEUL</td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>PFLUGERVILLE</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 252-7711</td>
+		<td>FAUBION SEAN B</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78745 3426</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 1 Block: P Subdivision: CHERRY CREEK PH 2 SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-125743 MP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>2700 COATBRIDGE DR</td>
+		<td>01/02/2014</td>
+		<td>New drywall, insullation.  Convert tub to shower in master bedroom.  Replace valve in hall bathroom.  Move gas line in kitchen.  Ungrade electrical service. Sheetrock removal was limited to 24" off floor.</td>
+		<td>Final</td>
+		<td>Robert C Henderson, Austin Air Conditioning, Inc.</td>
+		<td>13620</td>
+		<td>IMMANEUL</td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>PFLUGERVILLE</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 252-7711</td>
+		<td>Sean Faubion, </td>
+		<td>2700</td>
+		<td>Coatbridge</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78745 3426</td>
+		<td>(512) 636-9913</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 1 Block: P Subdivision: CHERRY CREEK PH 2 SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-126361 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>11809 QUINTANA CV</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio. **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Seth Robinson, In Charge Electrical Services, LLC</td>
+		<td>16808</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 778-6240</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>3088</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 59 BLK B ESQUEL PHS 1 SEC 4</td>
+	</tr>
+
+	<tr>
+		<td>2013-126826 PP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>2602 BRIARCREST DR</td>
+		<td>01/02/2014</td>
+		<td>Partial demo of deck; remodel a playrm to masterbedrm, closet, bathrm, reconfigure utilityrm, new windows, siding and roof. Addition of front and rear covered porches.</td>
+		<td>Final</td>
+		<td>Kenneth Lott, Prestige Plumbing</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Hutto</td>
+		<td>TX</td>
+		<td>78634</td>
+		<td>(512) 422-2159</td>
+		<td>John W White, </td>
+		<td>2907</td>
+		<td>Creamer Creek </td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>LA GRANGE</td>
+		<td>TX</td>
+		<td>78945 5701</td>
+		<td>(979) 968-5077</td>
+		<td>2830</td>
+		<td>504</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 8A BLK B RESUB LOT 7-8 BARTON HILLS SEC 6</td>
+	</tr>
+
+	<tr>
+		<td>2013-126918 BP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>1408 ALEGRIA RD</td>
+		<td>01/02/2014</td>
+		<td>Partial demo of rear wall, all windows not recently replaced to be removed. Rear stoop and roof overhang at stoop to be removed. Addition of an uncovered wood deck in the rear of home. Interior remodel; relocating kitchen and enclosing open area to create an office/bed bedrm with closet and bathrm. Replace some existing windows and adding new. Relocating a door on the unconditioned utilityrm in the rear.</td>
+		<td>Final</td>
+		<td>Brett A Wells, Wells Custom Homes</td>
+		<td>6201</td>
+		<td>Woodrow</td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 905-6261</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>60</td>
+		<td>33380</td>
+		<td>32000</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-126921 EP</td>
+		<td>R- 329 Res Structures Other Than Bldg </td>
+		<td>New</td>
+		<td>10116 IVALENES HOPE DR</td>
+		<td>01/02/2014</td>
+		<td>New pool and spa</td>
+		<td>Final</td>
+		<td>Bobby D. Leverett, Solid Base Electric, LLC</td>
+		<td>13101</td>
+		<td>Travis View</td>
+		<td>LOOP</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78732</td>
+		<td>(512) 619-6128</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>414</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>S9965 - PEARSON PLACE SEC 1, BLOCK H, Lot 7</td>
+	</tr>
+
+	<tr>
+		<td>2013-127824 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>5816 LEVENWOOD LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch, and rear patio. **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Seth Robinson, In Charge Electrical Services, LLC</td>
+		<td>16808</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 778-6240</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2079</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-127950 EP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>12945 HEYERDAHL DR</td>
+		<td>01/02/2014</td>
+		<td>Remove tub and surround.  Install new shower pan and valve.  Install new tile surround, exhaust vent, recessed lights, relocate outlet.</td>
+		<td>Final</td>
+		<td>Jason Dupre, Conquest Electrical Contracting LLC</td>
+		<td>12307</td>
+		<td>ROXIE</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>215</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78729</td>
+		<td>(512) 845-3435</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-128028 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>11612 SHERWOOD FOREST</td>
+		<td>01/02/2014</td>
+		<td>Upgrade elec service to exist residence only. (Occupied)</td>
+		<td>Final</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-128144 EP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>7007 EDGEFIELD DR</td>
+		<td>01/02/2014</td>
+		<td>Install kitchen sink.   Install new light fixtures.  Install new pocket door in master bathroom.  Replace tub and shower in 2 bathrooms.</td>
+		<td>Final</td>
+		<td>James Harlow, Mercury Electric Co</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Liberty Hill</td>
+		<td>TX</td>
+		<td>78642</td>
+		<td>(512) 515-5557</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-128810 EP</td>
+		<td>R- 329 Res Structures Other Than Bldg </td>
+		<td>New</td>
+		<td>10112 IVALENES HOPE DR</td>
+		<td>01/02/2014</td>
+		<td>New swimming pool, spa, and concrete deck</td>
+		<td>Final</td>
+		<td>Bobby D. Leverett, Solid Base Electric, LLC</td>
+		<td>13101</td>
+		<td>Travis View</td>
+		<td>LOOP</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78732</td>
+		<td>(512) 619-6128</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>431</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>S9965 - PEARSON PLACE SEC 1, BLOCK H, Lot 6</td>
+	</tr>
+
+	<tr>
+		<td>2013-128937 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>1708 SHADOWVIEW DR BLDG B</td>
+		<td>01/02/2014</td>
+		<td>remove shower & surround, install new tile shower pan & valve, new tile surround</td>
+		<td>Expired</td>
+		<td>Statewide Remodeling of Austin</td>
+		<td>2209-A</td>
+		<td>RUTLAND</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>100A</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78758</td>
+		<td>(512) 453-5858</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>7770</td>
+		<td>7770</td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-128939 PP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>501 OAKLAND AVE</td>
+		<td>01/02/2014</td>
+		<td>Change of Use Residential/Office to Retail. Interior Remodel for Retail use and Parking lot Striping plan for Code compliant parking, add new external stairway and deck </td>
+		<td>Final</td>
+		<td>Frank Baglioni, Distinctive Plumbing</td>
+		<td>3304</td>
+		<td>Valley Pike</td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>Cedar Park</td>
+		<td>TX</td>
+		<td>78613</td>
+		<td>(512) 563-6009</td>
+		<td>TEXAS HIGHWAY PATROL MUSEUM</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78703 5113</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1798</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 12 Block:   Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-128989 PP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>1900 CAMINO VIEJO</td>
+		<td>01/02/2014</td>
+		<td>new 2-story sf, 4 bedrooms, 3.5 bathrooms, attached garage, uncovered patio **VOLUME BUILDER**</td>
+		<td>Final</td>
+		<td>Randolph Taylor, Victory Plumbing</td>
+		<td>1175</td>
+		<td>Country</td>
+		<td>RD</td>
+		<td></td>
+		<td>108</td>
+		<td>HUTTO</td>
+		<td>TX</td>
+		<td>78634</td>
+		<td>(512) 990-7200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2426</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 14 Block: A Subdivision: TANGLEWILD ESTATES, RESUB OF LOTS 3-5 (WITHDRAWAL AND RESUBMITTAL)</td>
+	</tr>
+
+	<tr>
+		<td>2013-129402 EP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>4702 STRASS DR</td>
+		<td>01/02/2014</td>
+		<td>Partial demo of existing front porch, remove existing rear wall for addition. New front porch with screen area. Adding a master bedrm, master bathrm (tie into existing plumbing), 2 walkinclosets, built in cabinets, new livingrm area, remodeling existing kitchen. </td>
+		<td>Final</td>
+		<td>Marty R. Reed, Cool Ray Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Cedar Park</td>
+		<td>TX</td>
+		<td>78630</td>
+		<td>(512) 981-8215</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1836</td>
+		<td>722</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 11 Block: D Subdivision: SHOALMONT ADDITION SEC 3, RESUB OF BLKS A, D, F & PORTION OF B & E</td>
+	</tr>
+
+	<tr>
+		<td>2013-129444 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>10105 ALY MAY DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Seth Robinson, In Charge Electrical Services, LLC</td>
+		<td>16808</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 778-6240</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2544</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 34 BLK A HOLLOW AT SLAUGHTER CREEK SEC 2 THE</td>
+	</tr>
+
+	<tr>
+		<td>2013-129524 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>8314 STILLWOOD LN</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel of kitchen, dining room and living room.  Replacement of all windows.  (repermit expired BP #2011-024198)  </td>
+		<td>Final</td>
+		<td>Jose Minguell, Minguell-McQuary LLC</td>
+		<td>702</td>
+		<td>San Antonio</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78701</td>
+		<td>(512) 470-0484</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>52000</td>
+		<td></td>
+		<td>200</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-129658 DS</td>
+		<td>Res. Driveway</td>
+		<td>New</td>
+		<td>10502 FOUNDATION RD</td>
+		<td>01/02/2014</td>
+		<td>01/16/14 Variance changed to concrete per e-mail from Jay Baker.  Changed ROW contractor from Stephens to Anchor per Larry of Anchor.**nmt   12/18/13 Variance for asphalt approved and attached.**nmt
+Construct new Type III driveway approach with approved variance.  See attached plans.**nmt</td>
+		<td>Expired</td>
+		<td>Anchor Concrete, Inc.</td>
+		<td>7809</td>
+		<td>Thomas Springs</td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78736</td>
+		<td>(512) 266-1630</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-130060 BP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition</td>
+		<td>7008 VIA DONO DR</td>
+		<td>01/02/2014</td>
+		<td>New uncovered wood deck.</td>
+		<td>Final</td>
+		<td>Caleb Wheeler, Centex Decks</td>
+		<td>9011</td>
+		<td>APPALOOSA</td>
+		<td>RUN</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78737</td>
+		<td>(512) 940-2839</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>450</td>
+		<td></td>
+		<td>15000</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 31 Block: B Subdivision: HEIGHTS AT LOMA VISTA (AKA SHADOWRIDGE CROSSING SEC 10)</td>
+	</tr>
+
+	<tr>
+		<td>2013-130171 BP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>1404 NORTHRIDGE DR</td>
+		<td>01/02/2014</td>
+		<td>Partial demo of front porch and rear shed for addition. The front porch will be added to the existing home for an addition to the living area with the front door relocated. Gutting the interior to bare frame and foundation, a 60 sf. addition will be added to the northeast corner of the building for restrm remodel. The home will be rebuilt from the frame on the inside incuding; new mechanicals, plumbing, electrical, drywall and all finishes. New windows will be installed. Most of the exterior cladding (brick & siding) will remain and not be replaced. The house will remain a 3 bedrm, 3 bath one story.</td>
+		<td>Final</td>
+		<td>Matthew Martinelli, Zuri Group Inc.</td>
+		<td>9511</td>
+		<td>NEWBERRY</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78729</td>
+		<td>(512) 690-4109</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>87</td>
+		<td>26000</td>
+		<td>54500</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 3 BLK H DELWOOD HEIGHTS</td>
+	</tr>
+
+	<tr>
+		<td>2013-130273 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>3104 HONEY TREE LN</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel at second floor of existing two story residence.  Remodel of existing studio into two bedrooms.  New walls, interior doors, finishes.  Electrical device and lighting as shown on plan.  Replace bathroom sink.</td>
+		<td>Final</td>
+		<td>Mark Brashears, Brashears Construction Inc</td>
+		<td>13515 </td>
+		<td>FITZHUGH</td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td></td>
+		<td>(512) 288-5399</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>19000</td>
+		<td></td>
+		<td>500</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 12 Block: 1 Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-130558 EP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>12617 PADUA DR</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Seth Robinson, In Charge Electrical Services, LLC</td>
+		<td>16808</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 778-6240</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5217</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 10 BLK A AVANA PHS 1 SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-130862 EP</td>
+		<td>C- 329 Com Structures Other Than Bldg </td>
+		<td>New</td>
+		<td>6711 E BEN WHITE BLVD EB</td>
+		<td>01/02/2014</td>
+		<td>New Swimming Pool for existing Hotel / Motel.</td>
+		<td>Final</td>
+		<td>Michael R Luna, Alliance Pro Electric</td>
+		<td>860</td>
+		<td>Davis </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>SouthLake</td>
+		<td>TX</td>
+		<td>76092</td>
+		<td>(817) 518-1098</td>
+		<td>H I AUSTIN AIRPORT LP</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78738 6061</td>
+		<td></td>
+		<td></td>
+		<td>916</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 1 Block:   Subdivision: BOUGHAN-SIMS SUBDIVISION</td>
+	</tr>
+
+	<tr>
+		<td>2013-130892 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>9308 BEECHNUT DR</td>
+		<td>01/02/2014</td>
+		<td>Install new electric for solar system to existing residence</td>
+		<td>Final</td>
+		<td>Mark Pride, Lighthouse Solar</td>
+		<td>2000</td>
+		<td>7th</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78704</td>
+		<td>(512) 476-5555</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-131543 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>1601 ASTOR PL</td>
+		<td>01/02/2014</td>
+		<td>Replace drain line under slab.
+</td>
+		<td>Final</td>
+		<td>Dennis Bryant Damer, Austin Area Plumbing and Drain Cleaning</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78766</td>
+		<td>(512) 736-7113</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 48 & S10FT OF LOT 49 OLT 19 DIV B GRANT PARK</td>
+	</tr>
+
+	<tr>
+		<td>2013-131745 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>1101 RED CLIFF DR</td>
+		<td>01/02/2014</td>
+		<td>Remodel master bath and 2 guest bathrooms:remove tub and surround, install new tub, valve, and surround.  </td>
+		<td>Final</td>
+		<td>Statewide Remodeling of Austin</td>
+		<td>2209-A</td>
+		<td>RUTLAND</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>100A</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78758</td>
+		<td>(512) 453-5858</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>29900</td>
+		<td>29900</td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-132137 EP</td>
+		<td>Residential </td>
+		<td>New</td>
+		<td>807 YABERS CT</td>
+		<td>01/02/2014</td>
+		<td>New Sf Res Only.EUD </td>
+		<td>Final</td>
+		<td>Seth Robinson, In Charge Electrical Services, LLC</td>
+		<td>16808</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 778-6240</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2076</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 10 BLK P AUSTIN'S COLONY SEC 7B</td>
+	</tr>
+
+	<tr>
+		<td>2013-132162 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>2201 INDIAN TRL</td>
+		<td>01/02/2014</td>
+		<td>Upgrade elec srv to exsting resid only (Structure Occupied)</td>
+		<td>Final</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 69 Block:   Subdivision: TARRYTOWN 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-132237 EP</td>
+		<td>C-1001 Commercial Finish Out</td>
+		<td>Remodel</td>
+		<td>11200 LAKELINE BLVD #200</td>
+		<td>01/02/2014</td>
+		<td>Finish Out For Admin/Bus/Office </td>
+		<td>Final</td>
+		<td>Clayton Payne, Tiger 2 Electrical Contractors</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78680</td>
+		<td>(512) 251-5111</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>9603</td>
+		<td>1</td>
+		<td>0</td>
+		<td>S9734 - PARKLINE SEC 1 (LT 1 RESUB), Lot 1B, ACRES 9.654</td>
+	</tr>
+
+	<tr>
+		<td>2013-132237 PP</td>
+		<td>C-1001 Commercial Finish Out</td>
+		<td>Remodel</td>
+		<td>11200 LAKELINE BLVD</td>
+		<td>01/02/2014</td>
+		<td>Finish Out For Admin/Bus/Office </td>
+		<td>Final</td>
+		<td>Michael Franklin, M.F. Plumbing, Inc.</td>
+		<td>410</td>
+		<td>Kenniston</td>
+		<td>Dr</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78752</td>
+		<td>(512) 302-0900</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>9603</td>
+		<td>1</td>
+		<td>0</td>
+		<td>S9734 - PARKLINE SEC 1 (LT 1 RESUB), Lot 1B, ACRES 9.654</td>
+	</tr>
+
+	<tr>
+		<td>2013-132367 PP</td>
+		<td>C- 323 Hospital & Institutional Bldgs</td>
+		<td>New</td>
+		<td>9312 BRODIE LN</td>
+		<td>01/02/2014</td>
+		<td>New Construction of Hospital Services (Limited)</td>
+		<td>Final</td>
+		<td>Omar Corpus, Willis Construction Service</td>
+		<td>1201</td>
+		<td>Avenu B</td>
+		<td></td>
+		<td>Unit</td>
+		<td>1714</td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78215</td>
+		<td>(210) 239-5454</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>6987</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-132468 EP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>13359 N US 183 HWY NB BLDG B UNIT 403</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel to existing Retail, to create three Suites.</td>
+		<td>Final</td>
+		<td>Richard Davis, Davis Electric</td>
+		<td>1604-B</td>
+		<td>Benchmark Dr.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78728</td>
+		<td>(512) 990-0300</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1656</td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-132573 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>2408 WEBBERVILLE RD</td>
+		<td>01/02/2014</td>
+		<td>isntall new elect solar system to existing residence </td>
+		<td>Final</td>
+		<td>Mark Pride, Lighthouse Solar</td>
+		<td>2000</td>
+		<td>7th</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78704</td>
+		<td>(512) 476-5555</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 14 Block: 28 Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-132610 BP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition</td>
+		<td>8106 LOGWOOD DR</td>
+		<td>01/02/2014</td>
+		<td>Partial demo to remove rear roof overhang; Addition of an attached rear screened-in patio w/ 2 sliding screen doors (207 sq. ft) to existing non-complying 1 story SF res.</td>
+		<td>Final</td>
+		<td>Patricia Alloway, </td>
+		<td>8106</td>
+		<td>LOGWOOD</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td></td>
+		<td>(512) 497-8114</td>
+		<td>MORTIMORE MARK F</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757 8129</td>
+		<td>(512) 466-8621</td>
+		<td></td>
+		<td>207</td>
+		<td></td>
+		<td>7678</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-132611 BP</td>
+		<td>R- 330  Accessory Use to Primary</td>
+		<td>New</td>
+		<td>8106 LOGWOOD DR</td>
+		<td>01/02/2014</td>
+		<td>Addition of a detached shed -built without a permit (247 sq. ft) to existing non-complying 1 story SF res</td>
+		<td>Final</td>
+		<td>Patricia Alloway, </td>
+		<td>8106</td>
+		<td>LOGWOOD</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td></td>
+		<td>(512) 497-8114</td>
+		<td>MORTIMORE MARK F</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757 8129</td>
+		<td>(512) 466-8621</td>
+		<td></td>
+		<td>247</td>
+		<td></td>
+		<td>7678</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-132661 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>7313 ONION CREEK DR</td>
+		<td>01/02/2014</td>
+		<td>Install receptacles and outlets, repai subpanel, instrall box and switch for patio fan, install spa disconnect, replace bos (rear bedroom), install smoke and carbon monoxide detectors, replace GFCI outlet. 
+**garage conversion not included with this permit**</td>
+		<td>Final</td>
+		<td>Andrew Patterson, Patterson Electric, Inc.</td>
+		<td>3410</td>
+		<td>Thomas Kincheon </td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78745</td>
+		<td>(512) 870-7304</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 7 Block: L Subdivision: YARRABEE BEND SEC 4-A</td>
+	</tr>
+
+	<tr>
+		<td>2013-132791 BP</td>
+		<td>R- 645 Demolition One Family Homes</td>
+		<td>Demolition</td>
+		<td>2019 E 3RD ST BLDG C</td>
+		<td>01/02/2014</td>
+		<td>Total demo of home (unit C).  Circa 1915</td>
+		<td>Final</td>
+		<td>David Wilford, DW Construction</td>
+		<td>709</td>
+		<td>Hyde Park</td>
+		<td>CT</td>
+		<td>78748</td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td></td>
+		<td>(512) 297-6362</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>836</td>
+		<td></td>
+		<td></td>
+		<td>400</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 9A FAIR GROUNDS ADDN AMENDED PLAT OF LOTS 8, 9 & 10 BLK 7</td>
+	</tr>
+
+	<tr>
+		<td>2013-132923 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 100</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Personal Service</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>2440</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132924 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 200</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Consumer Repair Services</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>483</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132925 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 300</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Automotive Repair</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>2186</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132926 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 400</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Communication Services</td>
+		<td>Final</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>3820</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132927 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 500</td>
+		<td>01/02/2014</td>
+		<td>Remodel to existing Warehouse</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>17291</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132928 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 600</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Light Manufacturing </td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>2289</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132929 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 700</td>
+		<td>01/02/2014</td>
+		<td>Remodeling to existing Warehouse*** No Mechanical Work Being Done***</td>
+		<td>Final</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>13560</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132930 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 800</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Admin/Bus/Prof Office</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>718</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132931 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 900</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Admin/Bus/Prof Office</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>346</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132932 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>211 E ALPINE RD UNIT 1000</td>
+		<td>01/02/2014</td>
+		<td>Change of use and remodel from Warehouse to Admin/Bus/Prof Office (VACANT)</td>
+		<td>Active</td>
+		<td>Gary Boulden, Dimension Properties</td>
+		<td>609-B</td>
+		<td>Wood</td>
+		<td>St</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 554-6868</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>25000</td>
+		<td></td>
+		<td>161</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 12 * LESS E 10FT AV WOODWARD INDUSTRIAL DISTRICT</td>
+	</tr>
+
+	<tr>
+		<td>2013-132938 BP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>2601 MARIA ANNA RD</td>
+		<td>01/02/2014</td>
+		<td>garage conversion into gameroom/ guestroom complete interior remodel</td>
+		<td>Final</td>
+		<td>Cory A Cox, Fordellis, LLC</td>
+		<td>5611</td>
+		<td>Ridge Oak</td>
+		<td>Dr</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78731</td>
+		<td>(512) 657-5911</td>
+		<td>BEARD RHETT HOWARD</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>NEW ORLEANS</td>
+		<td>LA</td>
+		<td>70112 3161</td>
+		<td></td>
+		<td></td>
+		<td>21</td>
+		<td>102500</td>
+		<td>125000</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 28 Block: F Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-132960 EP</td>
+		<td>Residential </td>
+		<td>New</td>
+		<td>13909 YELLOW BELL BND</td>
+		<td>01/02/2014</td>
+		<td>New 1 Stry Sf res w/ att'ed garage & cov'rd patio. Electrical service only. eud</td>
+		<td>Final</td>
+		<td>Calvin Lockhart, Calvin's Electric Company</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Dripping Springs</td>
+		<td>TX</td>
+		<td>78620</td>
+		<td>(512) 445-4580</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2236</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>UNT MASTER UNIT 1 MORNINGSIDE MASTER CONDOMINIUMS AMENDED PLUS 65.3 % INT IN COM AREA</td>
+	</tr>
+
+	<tr>
+		<td>2013-133091 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>7171 SOUTHWEST PKWY BLDG B500</td>
+		<td>01/02/2014</td>
+		<td>Remodel to existing Admin/Bus/Prof Office</td>
+		<td>Withdrawn</td>
+		<td>The Burt Group</td>
+		<td>2111</td>
+		<td>KRAMER</td>
+		<td>LN</td>
+		<td>Suite</td>
+		<td>100</td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78758</td>
+		<td>(512) 275-0881</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>43500</td>
+		<td></td>
+		<td>4000</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 1 BLK U LANTANA LOT 1 BLOCK U</td>
+	</tr>
+
+	<tr>
+		<td>2013-133095 PP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>422 CONGRESS AVE UNIT B</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel to existing Cocktail Lounge</td>
+		<td>Final</td>
+		<td>Fabian Galeana, NISI Plumbing</td>
+		<td>900</td>
+		<td>Broken Feather</td>
+		<td>TER</td>
+		<td>Lot</td>
+		<td>47</td>
+		<td>PFLUGERVILLE</td>
+		<td>TX</td>
+		<td>78662</td>
+		<td>(512) 965-2572</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>4500</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 6 Block:   Subdivision: OUTLOT 43 DIVISION E</td>
+	</tr>
+
+	<tr>
+		<td>2013-133140 BP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition</td>
+		<td>3305 LAUREL CIR</td>
+		<td>01/02/2014</td>
+		<td>Addition of wooden deck </td>
+		<td>Expired</td>
+		<td>CBA Design & Build, Inc</td>
+		<td>4131</td>
+		<td>SPICEWOOD SPRINGS</td>
+		<td>RD</td>
+		<td>Suite</td>
+		<td>G-3</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78759</td>
+		<td>(512) 814-0884</td>
+		<td>BOYD ETHEL DAVIDSON LIVING TRUST %BOYD & ASSOCIATES</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>DALLAS</td>
+		<td>TX</td>
+		<td>75206 4163</td>
+		<td>(512) 694-0666</td>
+		<td></td>
+		<td>108</td>
+		<td></td>
+		<td>10000</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 14 Block:   Subdivision: BALCONES PARK ADDN SEC 6</td>
+	</tr>
+
+	<tr>
+		<td>2013-133149 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>4906 MANCHESTER CIR</td>
+		<td>01/02/2014</td>
+		<td>remove tub and surround, install new walk-in tub and valve, install new tile surround, add GFCI dedicated circuit for tub, relocate 2 switches</td>
+		<td>Final</td>
+		<td>Statewide Remodeling of Austin</td>
+		<td>2209-A</td>
+		<td>RUTLAND</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>100A</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78758</td>
+		<td>(512) 453-5858</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>29144</td>
+		<td>29144</td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 16 Block: W Subdivision: GREENWOOD HILLS SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-133149 EP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>4906 MANCHESTER CIR</td>
+		<td>01/02/2014</td>
+		<td>remove tub and surround, install new walk-in tub and valve, install new tile surround, add GFCI dedicated circuit for tub, relocate 2 switches</td>
+		<td>Final</td>
+		<td>Jason Dupre, Conquest Electrical Contracting LLC</td>
+		<td>12307</td>
+		<td>ROXIE</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>215</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78729</td>
+		<td>(512) 845-3435</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 16 Block: W Subdivision: GREENWOOD HILLS SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2013-133182 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>4620 YELLOW ROSE TRL</td>
+		<td>01/02/2014</td>
+		<td>remove tub and surround, install new jaccuzzi whirlpool tub and valve, install new tile surround, install new 100 line to whirlpool tub</td>
+		<td>Final</td>
+		<td>Statewide Remodeling of Austin</td>
+		<td>2209-A</td>
+		<td>RUTLAND</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>100A</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78758</td>
+		<td>(512) 453-5858</td>
+		<td>BRISCOE R W</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78749 1660</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>18947</td>
+		<td>18947</td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 26 Block: A Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-133182 EP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Repair</td>
+		<td>4620 YELLOW ROSE TRL</td>
+		<td>01/02/2014</td>
+		<td>remove tub and surround, install new jaccuzzi whirlpool tub and valve, install new tile surround, install new 100 line to whirlpool tub</td>
+		<td>Final</td>
+		<td>Jason Dupre, Conquest Electrical Contracting LLC</td>
+		<td>12307</td>
+		<td>ROXIE</td>
+		<td>DR</td>
+		<td>Suite</td>
+		<td>215</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78729</td>
+		<td>(512) 845-3435</td>
+		<td>BRISCOE R W</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78749 1660</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 26 Block: A Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-133197 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>501 CONGRESS AVE Shell</td>
+		<td>01/02/2014</td>
+		<td>Interior & Exterior remodel to existing Office Building.  *SHELL BLDG - NOT FOR OCCUPANCY*</td>
+		<td>Active</td>
+		<td>Harvey-Cleary Builders (GC record)</td>
+		<td>8107</td>
+		<td>SPRINGDALE</td>
+		<td>RD</td>
+		<td>Unit</td>
+		<td>105</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78724</td>
+		<td>(512) 928-9300</td>
+		<td>WALTON STACY OFFICE PARTNERS IV L P  WALTON STREET CAPITAL L P</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>CHICAGO</td>
+		<td>IL</td>
+		<td>60611 6536</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>8031384</td>
+		<td></td>
+		<td>119870</td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 1-3 BLOCK 056 ORIGINAL CITY (TOTAL SQ FT 23461) (PLUS VAC ALLEY</td>
+	</tr>
+
+	<tr>
+		<td>2013-133227 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>7408 ONION CROSSING DR</td>
+		<td>01/02/2014</td>
+		<td>Minimum standard repair, sheetrock, insulation, doors, windows, electrical, hvac and plumbing. Exterior remodel for siding replacement. </td>
+		<td>Final</td>
+		<td>Joe Moreno, Moreno Electric</td>
+		<td>115</td>
+		<td>Sunset </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Lockhart</td>
+		<td>TX</td>
+		<td>78644</td>
+		<td>(512) 995-0181</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 17 Block: A Subdivision: YARRABEE BEND SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-133233 BP</td>
+		<td>C- 327 Stores & Customer Services</td>
+		<td>Shell</td>
+		<td>10721 RESEARCH BLVD NB BLDG A</td>
+		<td>01/02/2014</td>
+		<td>New SHELL Building</td>
+		<td>Active</td>
+		<td>EBCO General Contractor</td>
+		<td>305</td>
+		<td>West Gillis</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Cameron</td>
+		<td>TX</td>
+		<td>76520</td>
+		<td>(254) 697-8516</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>9751</td>
+		<td></td>
+		<td>909400</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 1 ARBOR TOWN SQUARE SUBD</td>
+	</tr>
+
+	<tr>
+		<td>2013-133243 BP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>2222 RIO GRANDE ST BLDG C UNIT 250</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel to existing Admin/Bus/Prof Office</td>
+		<td>Final</td>
+		<td>Daniel W Jahn, Jahn Construction Inc</td>
+		<td>4616</td>
+		<td>Howard</td>
+		<td>Ln</td>
+		<td>Bldg</td>
+		<td>9 - 975</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78728</td>
+		<td>(512) 339-3202</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>36865</td>
+		<td></td>
+		<td>6500</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT A HARDINS NO 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-133258 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>1403 S 6TH ST</td>
+		<td>01/02/2014</td>
+		<td>Partial Demolition, Interior Remodel and Exterior Repair.  Partial demo includes remove existing windows, metal siding, and concrete block.  All removed items to be replaced.  Interior Remodel includes relocation of kitchen, relocation of most interior walls, replacement of interior finishes.  Exterior repair includes replacement of all exterior windwos and doors, replacement of metal siding with wood siding, and replacement of concrete block finishes with stucco clad exterior finish.</td>
+		<td>Active</td>
+		<td>Dan Simone, </td>
+		<td>3458</td>
+		<td>Potomac</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Dallas</td>
+		<td>TX</td>
+		<td>75205</td>
+		<td>(972) 804-9856</td>
+		<td>WESTER JOHN & NADINE</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78704 2323</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>400000</td>
+		<td></td>
+		<td>3671</td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 9&10 BLK B CAPITAL HEIGHTS PLUS 10X50 FT ADJ VAC ALLEY</td>
+	</tr>
+
+	<tr>
+		<td>2013-133259 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>12311 BLACK ANGUS DR</td>
+		<td>01/02/2014</td>
+		<td>Interior remodel consisting of: Doors, windows and ext. deck & stairs upgrade.</td>
+		<td>Expired</td>
+		<td>James S McCrary, </td>
+		<td>12311</td>
+		<td>BLACK ANGUS</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78727</td>
+		<td>(972) 567-2198</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>6000</td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000028 EP</td>
+		<td>Residential </td>
+		<td>New</td>
+		<td>4712 GALLEGO CIR</td>
+		<td>01/02/2014</td>
+		<td>new sf residence service only EUD</td>
+		<td>Final</td>
+		<td>Bryan Neal, Powerhouse Electrical Services, Inc.</td>
+		<td>503</td>
+		<td>Farley</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78753</td>
+		<td>(512) 832-8900</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>4214</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 14 BLK A LADERA PHS 4A</td>
+	</tr>
+
+	<tr>
+		<td>2014-000030 MP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>2705 FIRECREST DR</td>
+		<td>01/02/2014</td>
+		<td>replacement of duct work to existing residence only </td>
+		<td>Final</td>
+		<td>Michael Wiegman, Climate Mechanical Inc</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78715</td>
+		<td>(512) 440-0123</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 17 Block: G Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000036 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>6405 CERRO CV</td>
+		<td>01/02/2014</td>
+		<td>Change out water heater to res only.</td>
+		<td>Expired</td>
+		<td>Michael Bidwell, Mr. Rooter Plumbing</td>
+		<td>12131</td>
+		<td>Roxie</td>
+		<td>Dr</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78759</td>
+		<td>(512) 454-6499</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000038 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>3302 WOODBRIAR LN</td>
+		<td>01/02/2014</td>
+		<td>HVAC Change Out to Residence</td>
+		<td>Final</td>
+		<td>George Stuckey, FOX Service Company</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78760</td>
+		<td>(512) 442-6782</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>Lot: 2 Block: H Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000040 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>13021 DESSAU RD UNIT 347</td>
+		<td>01/02/2014</td>
+		<td>Connect mobile home only ETJ</td>
+		<td>Final</td>
+		<td>James Wallin, Wallin Services Inc</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78708</td>
+		<td>(512) 989-6111</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 2 BLK A RIVER RANCH SUBD</td>
+	</tr>
+
+	<tr>
+		<td>2014-000041 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>13021 DESSAU RD UNIT 272</td>
+		<td>01/02/2014</td>
+		<td>Connect mobile home only ETJ</td>
+		<td>Final</td>
+		<td>James Wallin, Wallin Services Inc</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78708</td>
+		<td>(512) 989-6111</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 2 BLK A RIVER RANCH SUBD</td>
+	</tr>
+
+	<tr>
+		<td>2014-000042 PP</td>
+		<td>Residential </td>
+		<td>New</td>
+		<td>10416 CORBETT CV</td>
+		<td>01/02/2014</td>
+		<td>New 2-stry SF resdence, w/ attchd garage and cvrd porch/patio.  ETJ</td>
+		<td>Final</td>
+		<td>George Christianson, Casa Mechanical Services</td>
+		<td>2401</td>
+		<td>Old Settlers</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78665</td>
+		<td>(512) 334-7300</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5495</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000044 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>11320 MIDBURY CT</td>
+		<td>01/02/2014</td>
+		<td>Change-out water heater to exist residence. </td>
+		<td>Final</td>
+		<td>Stephen Harwell, 1st Plumbing Services, LLC</td>
+		<td>8721</td>
+		<td>1ST</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78748</td>
+		<td>(512) 282-7787</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 70 Block: O Subdivision: HILLCREST SECTION 4 FINAL PLAT</td>
+	</tr>
+
+	<tr>
+		<td>2014-000045 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>5612 KATYDID LN</td>
+		<td>01/02/2014</td>
+		<td>Halloween flooding
+gas test to existing residence only 
+waived fee per 20131107-86</td>
+		<td>Final</td>
+		<td>Jerry Frank Hamlin, MacLin Plumbing Co., Inc.</td>
+		<td>651</td>
+		<td>US 183</td>
+		<td>HWY</td>
+		<td>Suite</td>
+		<td>335</td>
+		<td>Leander</td>
+		<td>TX</td>
+		<td>78641</td>
+		<td>(512) 259-7473</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 12 Block: G Subdivision: YARRABEE BEND SEC 4</td>
+	</tr>
+
+	<tr>
+		<td>2014-000047 PP</td>
+		<td>Residential </td>
+		<td>Repair</td>
+		<td>6044 ABILENE TRL</td>
+		<td>01/02/2014</td>
+		<td>Repair sewerline (access through foundation) to exist res only. </td>
+		<td>Final</td>
+		<td>Sam D Dowdy Sr., S & D Plumbing</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Taylor</td>
+		<td>TX</td>
+		<td>76574</td>
+		<td>(512) 365-8866</td>
+		<td>JOHNSON KAREN & BRIAN</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78749 2822</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 13 Block: M Subdivision: THE VILLAGE AT WESTERN OAKS 7</td>
+	</tr>
+
+	<tr>
+		<td>2014-000050 EP</td>
+		<td>Residential </td>
+		<td>New</td>
+		<td>2908 TORO CANYON RD</td>
+		<td>01/02/2014</td>
+		<td>New Residence. Service Only. ETJ</td>
+		<td>VOID</td>
+		<td>Bryan Neal, Powerhouse Electrical Services, Inc.</td>
+		<td>503</td>
+		<td>Farley</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78753</td>
+		<td>(512) 832-8900</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5126</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 9 BLK 1 WESTLAKE HIGHLANDS SEC 8 AMENDED</td>
+	</tr>
+
+	<tr>
+		<td>2014-000060 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>3410 TAYLORS DR</td>
+		<td>01/02/2014</td>
+		<td>Change-out water heater to exist res only. </td>
+		<td>Final</td>
+		<td>Gary Hacker, Clarke Kent Plumbing, Inc.</td>
+		<td>1408</td>
+		<td>Ben White</td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78704</td>
+		<td>(512) 477-2200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 16 Block: H Subdivision: HERMAN BROWN ADDN</td>
+	</tr>
+
+	<tr>
+		<td>2014-000066 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>2318 FARNSWOOD CIR</td>
+		<td>01/02/2014</td>
+		<td>Install elec for water heater only. </td>
+		<td>Final</td>
+		<td>Randall Mallory, Malco Electric</td>
+		<td>10908</td>
+		<td>290 West</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78737</td>
+		<td>(512) 301-9111</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot:   Block: D Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000070 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>7610 LADYBUG ST</td>
+		<td>01/02/2014</td>
+		<td>Replace water heater. </td>
+		<td>Expired</td>
+		<td>Michael Thigpen, Greenwave Plumbing Inc</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Kyle</td>
+		<td>TX</td>
+		<td>78640</td>
+		<td>(512) 376-2555</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 18 Block: E Subdivision: YARRABEE BEND SEC 4</td>
+	</tr>
+
+	<tr>
+		<td>2014-000071 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>13021 DESSAU RD UNIT 366</td>
+		<td>01/02/2014</td>
+		<td>Connect mobile home ETJ</td>
+		<td>Final</td>
+		<td>Joe Bebee, Allen Bebee Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78709</td>
+		<td>(512) 913-0210</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 2 BLK A RIVER RANCH SUBD</td>
+	</tr>
+
+	<tr>
+		<td>2014-000075 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>7508 LADYBUG ST</td>
+		<td>01/02/2014</td>
+		<td>Rebuild elec service, replace subpanel, and any necessary repairs due to flood damage. </td>
+		<td>Final</td>
+		<td>Andrew Patterson, Patterson Electric, Inc.</td>
+		<td>3410</td>
+		<td>Thomas Kincheon </td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78745</td>
+		<td>(512) 870-7304</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 25 Block: D Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000076 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>3703 MOUNT BONNELL RD</td>
+		<td>01/02/2014</td>
+		<td>HVAC Change Out to Residence</td>
+		<td>Final</td>
+		<td>Larry Bloomquist, Arise Air</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Cedar Park</td>
+		<td>TX</td>
+		<td>78613</td>
+		<td>(512) 260-0160</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>LOT 3 BLK E MOUNT BONNELL TERRACE SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2014-000077 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>508 E HOWARD LN UNIT 15</td>
+		<td>01/02/2014</td>
+		<td>Connect mobile home ETJ</td>
+		<td>Final</td>
+		<td>Joe Bebee, Allen Bebee Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78709</td>
+		<td>(512) 913-0210</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>SILVERADO MOBILE HOME PARK DESSAU PARK MH PARK</td>
+	</tr>
+
+	<tr>
+		<td>2014-000085 PP</td>
+		<td>Residential </td>
+		<td>Irrigation</td>
+		<td>609 PEACOCK LN UNIT B</td>
+		<td>01/02/2014</td>
+		<td>install new irriagtion system to existing residence only </td>
+		<td>Expired</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000087 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>15096 BARRIE DR</td>
+		<td>01/02/2014</td>
+		<td>Install new solar elec service to exist res only. EUD</td>
+		<td>Final</td>
+		<td>Graeme Hair, ITS Electric, Inc.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>LEANDER</td>
+		<td>TX</td>
+		<td>78646</td>
+		<td>(512) 528-8935</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000093 BP</td>
+		<td>C- 649 Demolition All Other Bldgs Com</td>
+		<td>Demolition</td>
+		<td>8227 N LAMAR BLVD</td>
+		<td>01/02/2014</td>
+		<td>Total demolition of a 13,500sqft, steel concrete storage facility. </td>
+		<td>Expired</td>
+		<td>Select Building Systems, Inc Dba Sbs Con</td>
+		<td>1255</td>
+		<td>Austin</td>
+		<td>Hwy</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78209</td>
+		<td>(210) 669-2002</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>13500</td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000094 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>2213 DEADWOOD DR</td>
+		<td>01/02/2014</td>
+		<td>replacament of sewer yard line to existing residence </td>
+		<td>Final</td>
+		<td>Cesar De Leon, DeLeon's Plumbing</td>
+		<td>106</td>
+		<td>Red Bird </td>
+		<td>TRL</td>
+		<td></td>
+		<td></td>
+		<td>Kyle</td>
+		<td>TX</td>
+		<td>78640</td>
+		<td>(512) 577-7953</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 4 BLK D PEPPERTREE PARK SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2014-000095 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>7204 REABURN ST</td>
+		<td>01/02/2014</td>
+		<td>Change-out water heater to exist residence only. </td>
+		<td>Final</td>
+		<td>Michael Weidner, Johnny Rooter Plumbing Inc</td>
+		<td>6725</td>
+		<td>Shirley</td>
+		<td>Ave</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78752</td>
+		<td>(512) 451-3031</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 29 Block: H Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000106 PP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>7505 STONECLIFF CIR</td>
+		<td>01/02/2014</td>
+		<td>Change-out water heater to exist residence only. </td>
+		<td>Final</td>
+		<td>Alfred Oldenkamp, Benjamin Franklin Plumbing</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Leander</td>
+		<td>Tx</td>
+		<td>78646</td>
+		<td>(512) 331-4046</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000113 PP</td>
+		<td>Residential </td>
+		<td>Repair</td>
+		<td>2609 DANTE CT</td>
+		<td>01/02/2014</td>
+		<td>Tunnel to repair drain line to exist residence only. </td>
+		<td>Final</td>
+		<td>Ruben Mancias, Ruben's Plumbing Services</td>
+		<td>116</td>
+		<td>Everett</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Uhland</td>
+		<td>TX</td>
+		<td>78640</td>
+		<td>(512) 592-4600</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 15 Block: K Subdivision: SOUTHLAND OAKS SECTION 5</td>
+	</tr>
+
+	<tr>
+		<td>2014-000114 MP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>1506 S 1ST ST</td>
+		<td>01/02/2014</td>
+		<td>replacement of HVAC to existing Restaurant
+(LIKE FOR LIKE)</td>
+		<td>Final</td>
+		<td>Mark Cardwell, Texas Air Conditioning Specialist</td>
+		<td>16801</td>
+		<td>Radholme</td>
+		<td>CT</td>
+		<td>Suite</td>
+		<td>D</td>
+		<td>ROUND ROCK</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 736-6839</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 1 Block:   Subdivision: MRS. A. J. PACE SUBD</td>
+	</tr>
+
+	<tr>
+		<td>2014-000115 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>10909 PRESTON TRAILS DR</td>
+		<td>01/02/2014</td>
+		<td>Tunnel to repair drain line to exist res only. </td>
+		<td>Final</td>
+		<td>Ruben Mancias, Ruben's Plumbing Services</td>
+		<td>116</td>
+		<td>Everett</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Uhland</td>
+		<td>TX</td>
+		<td>78640</td>
+		<td>(512) 592-4600</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 5 Block: D Subdivision: ONION CREEK SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2014-000119 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>5201 HEDGEWOOD DR</td>
+		<td>01/02/2014</td>
+		<td>Tunnel to repair drain line to exist residence only. </td>
+		<td>Final</td>
+		<td>Ruben Mancias, Ruben's Plumbing Services</td>
+		<td>116</td>
+		<td>Everett</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Uhland</td>
+		<td>TX</td>
+		<td>78640</td>
+		<td>(512) 592-4600</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 20 Block: A Subdivision: COMMUNITY OF FAIRVIEW SEC 6</td>
+	</tr>
+
+	<tr>
+		<td>2014-000125 PP</td>
+		<td>Residential </td>
+		<td>Repair</td>
+		<td>9009 BRIARDALE DR</td>
+		<td>01/02/2014</td>
+		<td>Pulled gas meter. </td>
+		<td>Final</td>
+		<td>Mitchell Carey, ARS Rescue Rooter</td>
+		<td>2306</td>
+		<td>Howard Ln.</td>
+		<td></td>
+		<td>Suite</td>
+		<td>A</td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78728</td>
+		<td>(512) 381-3616</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000127 PP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>7509 WEST GATE BLVD</td>
+		<td>01/02/2014</td>
+		<td>Water Heater Change Out to Residence</td>
+		<td>Final</td>
+		<td>Gregory Westmoreland, Westmoreland Plumbing</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78709-996</td>
+		<td>(512) 288-7590</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>Lot: 4 Block: G Subdivision: CHERRY CREEK PH 7 SEC 1-A</td>
+	</tr>
+
+	<tr>
+		<td>2014-000129 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>3608 WINFIELD CV</td>
+		<td>01/02/2014</td>
+		<td>Upgrade electric service to existing residence only. (Repermit of 2012-101373)</td>
+		<td>Expired</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td>FIELDER REBECCA K & CRISTI LOTT</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78704 5920</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 15 Block: D Subdivision: BARTON OAKS</td>
+	</tr>
+
+	<tr>
+		<td>2014-000136 PP</td>
+		<td>Residential </td>
+		<td>Repair</td>
+		<td>5709 WELLINGTON DR</td>
+		<td>01/02/2014</td>
+		<td>Tunnel to repair drain line to exist residence only. </td>
+		<td>Final</td>
+		<td>Ruben Mancias, Ruben's Plumbing Services</td>
+		<td>116</td>
+		<td>Everett</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Uhland</td>
+		<td>TX</td>
+		<td>78640</td>
+		<td>(512) 592-4600</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 5 Block: S Subdivision: ROYAL OAK ESTATES SEC 3</td>
+	</tr>
+
+	<tr>
+		<td>2014-000161 BP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>5704 ARBOR HILL LN</td>
+		<td>01/02/2014</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio. **VOL BUILD PROJECT** **RESOLUTION #20071129-100 WAIVES FEES FOR THIS SMART HOUSING PROJECT**.  </td>
+		<td>Final</td>
+		<td>Lennar Homes</td>
+		<td>12301</td>
+		<td>RESEARCH</td>
+		<td>BLVD</td>
+		<td>Bldg</td>
+		<td>4, Ste 450</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78759</td>
+		<td>(512) 531-1331</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2841</td>
+		<td></td>
+		<td>76565</td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 16 BLK T BRADSHAW CROSSING SUBD SEC 10</td>
+	</tr>
+
+	<tr>
+		<td>2014-000163 MP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>1507 S IH 35 SVRD NB</td>
+		<td>01/02/2014</td>
+		<td>Replace RTU to exist commercial bldg only. </td>
+		<td>Final</td>
+		<td>Mark Maxwell, A.T. Services LLC</td>
+		<td>405</td>
+		<td>DUNKELD</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Briarcliff</td>
+		<td>TX</td>
+		<td>78669</td>
+		<td>(512) 264-2490</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 8 Block:   Subdivision: ELMHURST</td>
+	</tr>
+
+	<tr>
+		<td>2014-000164 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>11248 PINEHURST DR</td>
+		<td>01/02/2014</td>
+		<td>Minimum standard repair, interior: sheetrock, insulation, interior door, sinks, toilets, gas test,
+exterior: garage doors, front and rear door, 
+Permit is for Life Safety only. No Certificate of Occupancy is to issued.
+</td>
+		<td>Expired</td>
+		<td>Isaac Rabb, </td>
+		<td>11248</td>
+		<td>PINEHURST</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td></td>
+		<td>(512) 771-1154</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>45000</td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 44 Block: B Subdivision: ONION CREEK ONION CREEK SEC 2 AMND</td>
+	</tr>
+
+	<tr>
+		<td>2014-000168 EP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>3601 W WILLIAM CANNON DR # 8-400</td>
+		<td>01/02/2014</td>
+		<td>Replacing 100 amp dis-connect only. </td>
+		<td>Final</td>
+		<td>Bobby G Smith, Angell Services LLC</td>
+		<td>13321</td>
+		<td>Immanuel</td>
+		<td>Road</td>
+		<td></td>
+		<td></td>
+		<td>Pflugerville</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 837-0275</td>
+		<td>COOPER WILLIAM E INC % WALGREENS COMPANY TAX DEPT MS #1435</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>DEERFIELD</td>
+		<td>IL</td>
+		<td>60015 5121</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 2 BLK A SOUTHCROSS PLAZA RESUB OF</td>
+	</tr>
+
+	<tr>
+		<td>2014-000172 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>4708 PEACE PIPE PATH</td>
+		<td>01/02/2014</td>
+		<td>Install new elec solar system to exist res only. ETJ</td>
+		<td>Final</td>
+		<td>Norberto Martinez, Martinez Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Elgin</td>
+		<td>TX</td>
+		<td>78621</td>
+		<td>(512) 636-2882</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 2 Block: D Subdivision: BULL MOUNTAIN PHASE 2</td>
+	</tr>
+
+	<tr>
+		<td>2014-000175 PP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>1905 E 6TH ST UNIT 100</td>
+		<td>01/02/2014</td>
+		<td>Cap off existing water/waster water to only. </td>
+		<td>Final</td>
+		<td>Joseph C. Durham, JDS Plumbing</td>
+		<td>6313</td>
+		<td>Crumley</td>
+		<td>LN</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78741</td>
+		<td>(512) 803-6058</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 3 Block:   Subdivision: H & T C R R ADDN  1909</td>
+	</tr>
+
+	<tr>
+		<td>2014-000176 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>1414 DWYCE DR</td>
+		<td>01/02/2014</td>
+		<td>Install new elec solar system to exist residence only. </td>
+		<td>Final</td>
+		<td>Norberto Martinez, Martinez Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Elgin</td>
+		<td>TX</td>
+		<td>78621</td>
+		<td>(512) 636-2882</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000178 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>5610 GROVER AVE</td>
+		<td>01/02/2014</td>
+		<td>Install new elec solar system to exist residence only. </td>
+		<td>Final</td>
+		<td>Norberto Martinez, Martinez Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Elgin</td>
+		<td>TX</td>
+		<td>78621</td>
+		<td>(512) 636-2882</td>
+		<td>TIBREWALA NEAL K</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78756 1501</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000180 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>6906 SHADYWOOD DR</td>
+		<td>01/02/2014</td>
+		<td>Install new elec solar system to exist residence only. </td>
+		<td>Final</td>
+		<td>Norberto Martinez, Martinez Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Elgin</td>
+		<td>TX</td>
+		<td>78621</td>
+		<td>(512) 636-2882</td>
+		<td>Felix Agosto, </td>
+		<td>6906</td>
+		<td>Shadywood</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78745 5652</td>
+		<td>(512) 917-8833</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 3 Block: Y Subdivision: BUCKINGHAM RIDGE SEC 5</td>
+	</tr>
+
+	<tr>
+		<td>2014-000181 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>2105 RIVINA DR</td>
+		<td>01/02/2014</td>
+		<td>Install new elec solar system to exist residence only. ETJ</td>
+		<td>Final</td>
+		<td>Norberto Martinez, Martinez Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Elgin</td>
+		<td>TX</td>
+		<td>78621</td>
+		<td>(512) 636-2882</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 13 Block: G Subdivision: SENNA HILLS SEC 4</td>
+	</tr>
+
+	<tr>
+		<td>2014-000195 PP</td>
+		<td>Commercial</td>
+		<td>Irrigation</td>
+		<td>801 1/2 S 1ST ST</td>
+		<td>01/02/2014</td>
+		<td>Install irrigation system to new commercial bldg.</td>
+		<td>Final</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000204 EP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>3307 1/2 KIM LN</td>
+		<td>01/02/2014</td>
+		<td>Install electrical service for landscape lighting only. </td>
+		<td>Final</td>
+		<td>Ernest Smith, G Carter Construction Co., Inc.</td>
+		<td>804</td>
+		<td>Bell </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Cedar Park</td>
+		<td>TX</td>
+		<td>78630</td>
+		<td>(512) 258-1025</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000205 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>3503 WERNER AVE</td>
+		<td>01/02/2014</td>
+		<td>Install electrical for water heater only. refer#2013-042218 EP</td>
+		<td>Expired</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 2 Block: 8 Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000206 EP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>3401 1/2  HARMON AVE</td>
+		<td>01/02/2014</td>
+		<td>Install electrical service for landscape lighting only. </td>
+		<td>Final</td>
+		<td>Ernest Smith, G Carter Construction Co., Inc.</td>
+		<td>804</td>
+		<td>Bell </td>
+		<td>BLVD</td>
+		<td></td>
+		<td></td>
+		<td>Cedar Park</td>
+		<td>TX</td>
+		<td>78630</td>
+		<td>(512) 258-1025</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000207 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>8215 SUMMER PLACE DR</td>
+		<td>01/02/2014</td>
+		<td>Replace main service panel to exsitng resid only refer#2013-003229 EP</td>
+		<td>Expired</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000209 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>7502 DOWNRIDGE DR</td>
+		<td>01/02/2014</td>
+		<td>Upgrade electrical service to res only. refer#2013-011215 EP</td>
+		<td>Expired</td>
+		<td>Leonard S Nicholas, </td>
+		<td>8406</td>
+		<td>Bowling Green</td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 837-4704</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000218 PP</td>
+		<td>Residential </td>
+		<td>Irrigation</td>
+		<td>6700 MELAVA CT</td>
+		<td>01/02/2014</td>
+		<td>install new irrigation system to residence.</td>
+		<td>Final</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000222 PP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>310 E 3RD ST</td>
+		<td>01/02/2014</td>
+		<td>Tie into city water meter only. </td>
+		<td>Expired</td>
+		<td>David Graves, David Graves Plumbing</td>
+		<td>570</td>
+		<td>SAYERS</td>
+		<td>RD</td>
+		<td></td>
+		<td></td>
+		<td>Bastrop</td>
+		<td>TX</td>
+		<td>78602</td>
+		<td>(512) 801-7879</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>368</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 6 Block:   Subdivision: OUTLOT 32 DIVISION E</td>
+	</tr>
+
+	<tr>
+		<td>2014-000224 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>5806 GLENHOLLOW PATH</td>
+		<td>01/02/2014</td>
+		<td>Upgrade electrical service to res only. </td>
+		<td>Expired</td>
+		<td>Robert Stange, ABC Electric  Stange Electric</td>
+		<td>1701</td>
+		<td>South Mays</td>
+		<td>ST</td>
+		<td>Suite</td>
+		<td>J. 116</td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 310-0062</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 28 Block: B Subdivision: FLOURNOYS SWEETBRIAR SEC 3</td>
+	</tr>
+
+	<tr>
+		<td>2014-000236 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>1507 ROBERT WEAVER AVE</td>
+		<td>01/02/2014</td>
+		<td>gas test to existing residence 
+expired permits on residence owner has 30 days to resolve </td>
+		<td>Final</td>
+		<td>Charles Payne, Charles Payne</td>
+		<td>108</td>
+		<td>MockingBird </td>
+		<td>CIR</td>
+		<td></td>
+		<td></td>
+		<td>CEDAR CREEK</td>
+		<td>TX</td>
+		<td>78612</td>
+		<td>(512) 844-6309</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: A Block: 2 Subdivision: AUSTIN OAKS '58' EXPERIMENTAL</td>
+	</tr>
+
+	<tr>
+		<td>2014-000247 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>4705 OAKMONT BLVD</td>
+		<td>01/02/2014</td>
+		<td>Replace hot water lines to exist residence. </td>
+		<td>Final</td>
+		<td>Morris Stephen Brougher, Steve's Plumbing Repair, Inc.</td>
+		<td>2605</td>
+		<td>Buell</td>
+		<td>AVE</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 276-7476</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 3 Block: C Subdivision: SHOALWOOD ADDN  SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2014-000252 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>2301 METCALFE RD</td>
+		<td>01/02/2014</td>
+		<td>Replace sewerline for exist duplex only. </td>
+		<td>Final</td>
+		<td>Morris Stephen Brougher, Steve's Plumbing Repair, Inc.</td>
+		<td>2605</td>
+		<td>Buell</td>
+		<td>AVE</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 276-7476</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 1 Block: G Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000255 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>4702 STRASS DR</td>
+		<td>01/02/2014</td>
+		<td>temp. meter loop for 2013-129402 BP</td>
+		<td>Final</td>
+		<td>Marty R. Reed, Cool Ray Electric</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Cedar Park</td>
+		<td>TX</td>
+		<td>78630</td>
+		<td>(512) 981-8215</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 11 Block: D Subdivision: SHOALMONT ADDITION SEC 3, RESUB OF BLKS A, D, F & PORTION OF B & E</td>
+	</tr>
+
+	<tr>
+		<td>2014-000257 MP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>5224 CANELLA DR</td>
+		<td>01/02/2014</td>
+		<td>Project Halloween Flood
+replacement of HVAc to existing residence only 
+waived per ord 20131107-86</td>
+		<td>Final</td>
+		<td>Eric Blandford, Lone Star Comfort Solutions LLC</td>
+		<td>314990</td>
+		<td>RR 12</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>DRIPPING SPRINGS</td>
+		<td>TX</td>
+		<td>78620</td>
+		<td>(512) 264-2665</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 3 BLK P SILVERSTONE PHS 1 SEC 1 (PRORATE 1-1-15 TO 1-20-15)</td>
+	</tr>
+
+	<tr>
+		<td>2014-000261 PP</td>
+		<td>C-1000 Commercial Remodel</td>
+		<td>Remodel</td>
+		<td>2323 SAN ANTONIO ST</td>
+		<td>01/02/2014</td>
+		<td>Partial Interior Remodel to Kitchen and Prep Area </td>
+		<td>Final</td>
+		<td>Curtis Novinger, Mechanical Technical Services, Lp</td>
+		<td>1720</td>
+		<td>Rowston Ln.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>ROUND ROCK</td>
+		<td>TX</td>
+		<td>78664</td>
+		<td>(512) 908-1057</td>
+		<td>CAMPUS INVESTORS AUSTIN LLC ETAL</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>CHAMPAIGN</td>
+		<td>IL</td>
+		<td>61820 5607</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>3440</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 27 Block:   Subdivision: LOUIS HORSTS SUBDIVISION</td>
+	</tr>
+
+	<tr>
+		<td>2014-000267 PP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>10606 PLUMEWOOD DR</td>
+		<td>01/02/2014</td>
+		<td>Water Heater Change Out to Residence</td>
+		<td>Final</td>
+		<td>Mitchell Carey, ARS Rescue Rooter</td>
+		<td>2306</td>
+		<td>Howard Ln.</td>
+		<td></td>
+		<td>Suite</td>
+		<td>A</td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78728</td>
+		<td>(512) 381-3616</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000268 PP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>2615 DANTE CT</td>
+		<td>01/02/2014</td>
+		<td>Change-out water heater to exist residence only. </td>
+		<td>Final</td>
+		<td>David M Huggins, Fairway Installation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Manor </td>
+		<td>TX</td>
+		<td>78653</td>
+		<td>(512) 278-1626</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>Lot: 16 Block: K Subdivision: SOUTHLAND OAKS SECTION 5</td>
+	</tr>
+
+	<tr>
+		<td>2014-000275 BP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>5102 CANELLA DR</td>
+		<td>01/02/2014</td>
+		<td>Minimum standard repair sheetrock, insulation, interior doors, bath tubs, sinks, toilets, and electrical.
+Permit is for Life Safety only. No Certificate of Occupancy is to issued.
+</td>
+		<td>Expired</td>
+		<td>Shane Albregts, </td>
+		<td>1200</td>
+		<td>Castle Hill</td>
+		<td></td>
+		<td>Unit</td>
+		<td>C</td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78703</td>
+		<td>(512) 705-2700</td>
+		<td>SMITHERMAN BARBARA A</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78744 6438</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>37800</td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 10 BLK J SILVERSTONE PHS 1 SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2014-000277 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>14013 CONNER DOWNS DR</td>
+		<td>01/02/2014</td>
+		<td>Install new solar elec system to exist residence. ETJ</td>
+		<td>Final</td>
+		<td>Joel Johnson, Global Efficient Energy</td>
+		<td>5321</td>
+		<td>Industrial Oaks </td>
+		<td>BLVD</td>
+		<td></td>
+		<td>105</td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78745</td>
+		<td>(512) 815-8177</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000281 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>6802 CITADEL CV</td>
+		<td>01/02/2014</td>
+		<td>Change-out HVAC to exist residence only. </td>
+		<td>Final</td>
+		<td>Joseph M Strazza, Precision Heating & Air</td>
+		<td>8711</td>
+		<td>BURNET</td>
+		<td>RD</td>
+		<td>Suite</td>
+		<td>D44</td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 300-7422</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>Lot: 7 Block: 5 Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2014-000287 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>9304 CLEAROCK DR</td>
+		<td>01/02/2014</td>
+		<td>Change-out HVAC to exist residence only. </td>
+		<td>Final</td>
+		<td>Daniel Ramsey, Evenaire, LLC</td>
+		<td>21424</td>
+		<td>Martin</td>
+		<td>LN</td>
+		<td></td>
+		<td></td>
+		<td>Pflugerville</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 990-2300</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>LOT 13 BLK H BALCONES VILLAGE SEC 4</td>
+	</tr>
+
+	<tr>
+		<td>2014-000291 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>8906 BRIARDALE DR</td>
+		<td>01/02/2014</td>
+		<td>Change-out HVAC to exist residence only. </td>
+		<td>Final</td>
+		<td>Aaron Rodriguez, IAQ Mechanical</td>
+		<td>9025</td>
+		<td>Vigen</td>
+		<td>CIR</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78748</td>
+		<td>(817) 578-8823</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000319 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>8906 BRIARDALE DR</td>
+		<td>01/02/2014</td>
+		<td>Install new elec solar system to exist residence only. </td>
+		<td>Expired</td>
+		<td>Fred T McKamey, McKamey Electrical Services</td>
+		<td>3612</td>
+		<td>Cove Timber</td>
+		<td>Ave</td>
+		<td>Suite</td>
+		<td>105</td>
+		<td>Granbury</td>
+		<td>TX</td>
+		<td>76049</td>
+		<td>(512) 744-8824</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000321 MP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>3310 LAKE CLIFF CT</td>
+		<td>01/02/2014</td>
+		<td>Partial demolition of existing sf-res for new door opening at side of home and new transom window at front door.  Interior remodel of existing single family residence to replace existing front door, kitchen area to relocate walls and to enlarge upstairs bathroom. Trade permits as required for work above. </td>
+		<td>Final</td>
+		<td>Tyler Miloy, Texas Comfort Specialists</td>
+		<td>1901</td>
+		<td>PEQUENO</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 524-2501</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>5000</td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 14 Block: A Subdivision: STRATFORD HILLS SUBDIVISION SECTION I</td>
+	</tr>
+
+	<tr>
+		<td>2014-000322 MP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>902 LINDEN ST</td>
+		<td>01/02/2014</td>
+		<td>replacement of HVAC to existing residence only </td>
+		<td>Final</td>
+		<td>Michael Wiegman, Climate Mechanical Inc</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78715</td>
+		<td>(512) 440-0123</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 2 Block:   Subdivision: T S TORRES SUBD</td>
+	</tr>
+
+	<tr>
+		<td>2014-000330 MP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>12110 SALEM HOUSE WAY</td>
+		<td>01/02/2014</td>
+		<td>change out A/C to residence.</td>
+		<td>Expired</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2014-000336 EP</td>
+		<td>Commercial</td>
+		<td>Remodel</td>
+		<td>2430 CROMWELL CIR UNIT 10</td>
+		<td>01/02/2014</td>
+		<td>repair damaged conduit @ service only to Building 10</td>
+		<td>Final</td>
+		<td>Charles Smith, Fuccello-Smith Electrical</td>
+		<td>9904</td>
+		<td>Valderrama Dr.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78717</td>
+		<td>(512) 719-5040</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 1 BLK A CHEVY CHASE SOUTH PHS 4 SEC B</td>
+	</tr>
+
+	<tr>
+		<td>2014-000345 EP</td>
+		<td>Residential </td>
+		<td>Auxiliary Power</td>
+		<td>2008 TOM MILLER ST</td>
+		<td>01/02/2014</td>
+		<td>Install new solar electrical system to res only. </td>
+		<td>Final</td>
+		<td>Mark Pride, Lighthouse Solar</td>
+		<td>2000</td>
+		<td>7th</td>
+		<td>ST</td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78704</td>
+		<td>(512) 476-5555</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 2 Block: 45 Subdivision: MUELLER SEC 4, AMENDED PLAT OF</td>
+	</tr>
+
+</table>
+
