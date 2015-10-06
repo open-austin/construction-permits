@@ -1,0 +1,765 @@
+
+
+<table border="1">
+	<tr>
+		<th>permit_number</th>
+		<th>sub_type</th>
+		<th>work_type</th>
+		<th>permit_location</th>
+		<th>date_issued</th>
+		<th>work_description</th>
+		<th>status</th>
+		<th>folder_owner</th>
+		<th>folder_owner_addrhouse</th>
+		<th>folder_owner_addrstreet</th>
+		<th>folder_owner_addrstreettype</th>
+		<th>folder_owner_addrunittype</th>
+		<th>folder_owner_addrunit</th>
+		<th>folder_owner_addrcity</th>
+		<th>folder_owner_addrprovince</th>
+		<th>folder_owner_addrpostal</th>
+		<th>folder_owner_phone</th>
+		<th>property_owner</th>
+		<th>property_owner_addrhouse</th>
+		<th>property_owner_addrstreet</th>
+		<th>property_owner_addrstreettype</th>
+		<th>property_owner_addrunittype</th>
+		<th>property_owner_addrunit</th>
+		<th>property_owner_addrcity</th>
+		<th>property_owner_addrprovince</th>
+		<th>property_owner_addrpostal</th>
+		<th>property_owner_phone</th>
+		<th>total_existing_bldg_footage</th>
+		<th>total_new_add_footage</th>
+		<th>total_valuation_remodel</th>
+		<th>total_job_valuation</th>
+		<th>remodel_repair_footage</th>
+		<th>number_of_units</th>
+		<th>usage_category</th>
+		<th>legal_description</th>
+	</tr>
+
+	<tr>
+		<td>2012-059285 MP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition</td>
+		<td>806 1/2 E 13TH ST</td>
+		<td>05/19/2013</td>
+		<td>Partial demo to remove north exterior walls for new addition; Addition to add 1st FL area -expand kitchen in rear, stairwell, media room (N), rear-side covered patio, bathroom (E), & bedrm #2; 2nd FL addition: stairwell, master bedrm & master bathrm to existing 1 story SF res.</td>
+		<td>Final</td>
+		<td>Raymond Willis, Big Tex Air Conditioning</td>
+		<td>2550</td>
+		<td>Old Settlers</td>
+		<td>RD</td>
+		<td>Suite</td>
+		<td>300</td>
+		<td>ROUND ROCK</td>
+		<td>TX</td>
+		<td>78665</td>
+		<td>(512) 310-2400</td>
+		<td>MOURA RICKY</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78702 1013</td>
+		<td></td>
+		<td>1574</td>
+		<td>896</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>W 22.5' OF LOT 45 *& E 22.5' OF LOT 46 *LESS NW TRI OLT 41 DIVISION B</td>
+	</tr>
+
+	<tr>
+		<td>2012-080295 MP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>1906 AIROLE WAY</td>
+		<td>05/19/2013</td>
+		<td>**Partial demolition of north wall for addition of garage with utility room and main floor master suite; removal and replacement of exterior siding and windows; complete interior remodel of existing to upgrade electrical, plumbing and HVAC as needed; new sheetrock, wallboard and framing as needed</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1134</td>
+		<td>1688.26</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 17 & SW TRI LOT 18 STENGER A D ADDN</td>
+	</tr>
+
+	<tr>
+		<td>2013-015208 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>708 PADRON LN</td>
+		<td>05/19/2013</td>
+		<td>New 2-story Condominium Residence, attached garage, covered porch and patio.</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2312</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-018771 MP</td>
+		<td>R- 434 Addition & Alterations</td>
+		<td>Addition and Remodel</td>
+		<td>2201 GREENLEE DR</td>
+		<td>05/19/2013</td>
+		<td>Partial demo Addition, Remodel add 2nd story, remodel downstairs bath. Re-permit exp permit # 97-015567, extend master bedrm front porch, remodel kitchen.</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2837</td>
+		<td>1485</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 55 Block:   Subdivision: TARRYTOWN OAKS</td>
+	</tr>
+
+	<tr>
+		<td>2013-023465 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>308 BRAYLEN CV</td>
+		<td>05/19/2013</td>
+		<td>New 1 story sf home</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2335</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>Lot: 37 Block: A Subdivision: RESERVE AT SOUTHPARK MEADOWS PHASE 1B (THE)</td>
+	</tr>
+
+	<tr>
+		<td>2013-026720 MP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>3909 AMY CIR</td>
+		<td>05/19/2013</td>
+		<td>Interior remodel of master bath, living room, kitchen, break room and utility room. No added sf. No exterior demo. ***APPROVED THROUGH COC PROGRAM***</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2284</td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-027129 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>801 CLEAR STREAM XING</td>
+		<td>05/19/2013</td>
+		<td>New 2-story single-family residence, attached garage, covered entry porch and rear patio.  **VOL BUILD PROJECT** </td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>3682</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-036809 MP</td>
+		<td>R- 101 Single Family Houses</td>
+		<td>New</td>
+		<td>10800 DINAH DR</td>
+		<td>05/19/2013</td>
+		<td>New 1-story single-family residence, attached garage, covered porch and patio. **VOL BUILDER***</td>
+		<td>Final</td>
+		<td>Steven Layne Key, </td>
+		<td>13718</td>
+		<td>Lookout </td>
+		<td>DR</td>
+		<td></td>
+		<td></td>
+		<td>San Antonio</td>
+		<td>TX</td>
+		<td>78237</td>
+		<td>(210) 650-3380</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1980</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1</td>
+		<td>0</td>
+		<td>LOT 21 BLK A RESERVE AT LYNNBROOK</td>
+	</tr>
+
+	<tr>
+		<td>2013-039483 PP</td>
+		<td>R- 435 Renovations/Remodel </td>
+		<td>Remodel</td>
+		<td>1702 NEWNING AVE</td>
+		<td>05/19/2013</td>
+		<td>Interior remodel to existing duplex bldg #3 to include:  kitchen, living room, baths & bedrooms;  demolish partial interior walls, provide new tile flooring, door framing, kitchen & bath hardware; complete paint throughout.</td>
+		<td>Final</td>
+		<td>Randolph Taylor, Victory Plumbing</td>
+		<td>1175</td>
+		<td>Country</td>
+		<td>RD</td>
+		<td></td>
+		<td>108</td>
+		<td>HUTTO</td>
+		<td>TX</td>
+		<td>78634</td>
+		<td>(512) 990-7200</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>1980</td>
+		<td>1</td>
+		<td>0</td>
+		<td>UNT 101 BLD 1 VILLAS OF TRAVIS HEIGHTS CONDOMINIUMS THE PLUS 25% INTEREST IN COMMON AREA</td>
+	</tr>
+
+	<tr>
+		<td>2013-048188 EP</td>
+		<td>C-1001 Commercial Finish Out</td>
+		<td>Remodel</td>
+		<td>3801 S CONGRESS AVE UNIT 106</td>
+		<td>05/19/2013</td>
+		<td>Tenant finish out Medical Office (Dental</td>
+		<td>Final</td>
+		<td>Clayton Payne, Tiger 2 Electrical Contractors</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Round Rock</td>
+		<td>TX</td>
+		<td>78680</td>
+		<td>(512) 251-5111</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>2453</td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 20A Block:   Subdivision: WOODWARD INDUSTRIAL DISTRICT, AMENDED PLAT OF LOTS 20 & 21</td>
+	</tr>
+
+	<tr>
+		<td>2013-051861 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>7513 BONNIEBROOK DR</td>
+		<td>05/19/2013</td>
+		<td>Install tankless wate heater to existing residence only.</td>
+		<td>Final</td>
+		<td>Kenneth Salyer, Texas Heaters</td>
+		<td>505</td>
+		<td>Oak Ridge</td>
+		<td>Dr</td>
+		<td></td>
+		<td></td>
+		<td>Pflugerville</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 215-1636</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot: 44 Block: E Subdivision: LANTANA SINGLE FAMILY SECTION 2</td>
+	</tr>
+
+	<tr>
+		<td>2013-051862 EP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>1213 GARDEN ST</td>
+		<td>05/19/2013</td>
+		<td>Reconnect wiring for A/C unit  only. </td>
+		<td>Final</td>
+		<td>Chris McDonald, </td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78760</td>
+		<td>(512) 448-9238</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>Lot:   Block:   Subdivision: NEW PLAN OF CANTERBURY SQUARE</td>
+	</tr>
+
+	<tr>
+		<td>2013-051863 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>10103 WILLFIELD DR</td>
+		<td>05/19/2013</td>
+		<td>Change out hvac to existing residence only </td>
+		<td>Final</td>
+		<td>George Stuckey, FOX Service Company</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Austin</td>
+		<td>TX</td>
+		<td>78760</td>
+		<td>(512) 442-6782</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-051864 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>1304 CHICORY CV</td>
+		<td>05/19/2013</td>
+		<td>Change out hvac to existing residence only</td>
+		<td>Final</td>
+		<td>Wayne Harrel, Strand Brothers</td>
+		<td>1900</td>
+		<td>Howard</td>
+		<td>LN</td>
+		<td>Bldg</td>
+		<td>E</td>
+		<td>PFLUGERVILLE</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 501-4033</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>Lot: 36 Block: A Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-051865 MP</td>
+		<td>Residential </td>
+		<td>Change Out</td>
+		<td>5700 MOJAVE DR</td>
+		<td>05/19/2013</td>
+		<td>Change out hvac to existing residence only.</td>
+		<td>Final</td>
+		<td>Albert D Andrea, Mccullough Heating & Air Conditioning</td>
+		<td>2620</td>
+		<td>BUELL</td>
+		<td>AVE</td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78757</td>
+		<td>(512) 280-0011</td>
+		<td>BALDERAS ZACARIAS E</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>AUSTIN</td>
+		<td>TX</td>
+		<td>78745 2938</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>Lot: 35 Block:   Subdivision:  </td>
+	</tr>
+
+	<tr>
+		<td>2013-051866 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>4102 FIRSTVIEW DR</td>
+		<td>05/19/2013</td>
+		<td>Change out water heater to existing residence only</td>
+		<td>Final</td>
+		<td>William Bywaters, </td>
+		<td>5902</td>
+		<td>34TH </td>
+		<td>SQ</td>
+		<td></td>
+		<td></td>
+		<td>Houston </td>
+		<td>TX</td>
+		<td>77092</td>
+		<td>(866) 772-6306</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-051867 PP</td>
+		<td>Residential </td>
+		<td>Remodel</td>
+		<td>12308 DEER FALLS DR BLDG B</td>
+		<td>05/19/2013</td>
+		<td>Change out water heater to exisitng residence only.</td>
+		<td>Final</td>
+		<td>William Bywaters, </td>
+		<td>5902</td>
+		<td>34TH </td>
+		<td>SQ</td>
+		<td></td>
+		<td></td>
+		<td>Houston </td>
+		<td>TX</td>
+		<td>77092</td>
+		<td>(866) 772-6306</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2013-051868 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>1701 MARIPOSA DR</td>
+		<td>05/19/2013</td>
+		<td>Upgrade electrical service to existing residence only. </td>
+		<td>Final</td>
+		<td>Jeffrey Gray, Grayzer Electric LLC</td>
+		<td>17704</td>
+		<td>Ice Age </td>
+		<td>TRL</td>
+		<td></td>
+		<td></td>
+		<td>PFLUGERVILLE</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 535-4120</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>LOT 9 BLK B MARIPOSA HEIGHTS SEC 1</td>
+	</tr>
+
+	<tr>
+		<td>2013-051869 EP</td>
+		<td>Residential </td>
+		<td>Upgrade</td>
+		<td>3607 MUNSON ST</td>
+		<td>05/19/2013</td>
+		<td>Upgrade electrical service to existing residence only. (Structure occupied)</td>
+		<td>Final</td>
+		<td>Jeffrey Gray, Grayzer Electric LLC</td>
+		<td>17704</td>
+		<td>Ice Age </td>
+		<td>TRL</td>
+		<td></td>
+		<td></td>
+		<td>PFLUGERVILLE</td>
+		<td>TX</td>
+		<td>78660</td>
+		<td>(512) 535-4120</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>E 53.33 FT OF LOT 9 BLK A OLT 57 DIV A EASTOVER</td>
+	</tr>
+
+</table>
+
