@@ -45,6 +45,6 @@ def main(start, end):
             print(e)
 
 
-start = arrow.get('01-01-2012')
-end = arrow.get('01-01-2014')
+start = arrow.get('01-01-2005')
+end = arrow.get('01-01-2012')
 main(start, end)
