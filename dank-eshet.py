@@ -57,13 +57,13 @@ def geocode_data(data):
 	    address = row.permit_location
         if address not in address_list:
             address_list.append(address)
-			lookup_address = address + ', Austin, TX'
+            lookup_address = address + ', Austin, TX'
             found_address = geocoder.google(address)
-			geocoder_results.append(found_address)
-			row['lat'] = found_address.lat
-			row['lng'] = found_address.lng
-			row['accuracy'] = found_address.accuracy
-		
+            geocoder_results.append(found_address)
+            row['lat'] = found_address.lat
+            row['lng'] = found_address.lng
+            row['accuracy'] = found_address.accuracy
+	
 def write_data(start_date, end_date, data, fh):
     print('Writing data from {} to {}'.format(start_date.format('MM/DD/YYYY'), end_date.format('MM/DD/YYYY')))
     fh.write(data)
