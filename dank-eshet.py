@@ -1,12 +1,23 @@
+# todo:
+#  else statement to fetch already-geocoded addresses
+#  write to file
+#  permit reports should follow folder structure of the repo
+#  testing
+#  inconsistent quotes usage
+			
 import arrow
 import requests
-
+import geocoder
 import logging
+
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
 requests_log = logging.getLogger("requests.packages.urllib3")
 requests_log.setLevel(logging.DEBUG)
 requests_log.propagate = True
+
+#  debugging vars
+bill = []
 
 def get_data(start_date, end_date):
     start = start_date.format('MM/DD/YYYY')
@@ -22,7 +33,7 @@ def get_data(start_date, end_date):
 
     return res.content
 
-def parse_data(data):
+def parse_table_html(data):
     data = str(data)
     data = data.replace("\\n","")
     data = data.replace("\\t","")
@@ -35,9 +46,24 @@ def parse_data(data):
     data = data.replace("</td>",delim)
     data = data.replace("<tr>","")
     data = data.replace("</tr>","\n")
-    
+	bill.append(data[0:5000])
     return data
     
+def geocode_data(data):
+	address_list = []
+	geocoder_results = []
+	reader = csv.DictReader(data.split('\n'),  delimiter='|')
+    for row in reader:
+	    address = row.permit_location
+        if address not in address_list:
+            address_list.append(address)
+			lookup_address = address + ', Austin, TX'
+            found_address = geocoder.google(address)
+			geocoder_results.append(found_address)
+			row['lat'] = found_address.lat
+			row['lng'] = found_address.lng
+			row['accuracy'] = found_address.accuracy
+		
 def write_data(start_date, end_date, data, fh):
     print('Writing data from {} to {}'.format(start_date.format('MM/DD/YYYY'), end_date.format('MM/DD/YYYY')))
     fh.write(data)
@@ -53,7 +79,7 @@ def main(start, end):
         end_date = start.replace(days=day_number+interval-1)
         try:
             data = get_data(start_date, end_date)
-            data = parse_data(data)
+            data = parse_table_html(data)
             write_data(start_date, end_date, data, fh)
         except Exception as e:
             print('Failed to get data for {} to {}'.format(start_date, end_date))
@@ -61,8 +87,8 @@ def main(start, end):
     fh.close()
     
 fname = "data/data.txt"
-delim = "|" #mr. pipe
-start = arrow.get(2005,1,1) #(YYYY,M,D)
-end = arrow.get(2005,12,31)
-interval = 7 #7 days is the max
+delim = "|"
+start = arrow.get(2015,10,15) #  (YYYY,M,D)
+end = arrow.get(2015,10,15)
+interval = 7 #  7 days is the maximum allowable time interval 
 main(start, end)
