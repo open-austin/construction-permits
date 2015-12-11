@@ -18,9 +18,6 @@ requests_log = logging.getLogger("requests.packages.urllib3")
 requests_log.setLevel(logging.DEBUG)
 requests_log.propagate = True
 
-#  debugging vars
-bill = []
-
 def get_data(today):
     print('Getting data from {} to {}'.format(today, today))
     data = {'sDate': today, 'eDate': today, 'Submit': 'Submit'}
