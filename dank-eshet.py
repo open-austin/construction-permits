@@ -1,6 +1,5 @@
 #  todo:
 #  inconsistent quotes usage
-#  interval must always be current date
 #  throw out matches that match citycenter
 #  extra column before geocoded fields
 
