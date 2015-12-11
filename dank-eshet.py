@@ -1,28 +1,39 @@
-import arrow
-import requests
+#  todo:
+#  inconsistent quotes usage
+#  interval must always be current date
+#  throw out matches that match citycenter
+#  extra column before geocoded fields
 
+import arrow
+import os
+import time
+import requests
+import geocoder
 import logging
+import csv
+import pdb
+
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
 requests_log = logging.getLogger("requests.packages.urllib3")
 requests_log.setLevel(logging.DEBUG)
 requests_log.propagate = True
 
-def get_data(start_date, end_date):
-    start = start_date.format('MM/DD/YYYY')
-    end = end_date.format('MM/DD/YYYY')
-    print('Getting data from {} to {}'.format(start, end))
-    data = {'sDate': start, 'eDate': end, 'Submit': 'Submit'}
+#  debugging vars
+bill = []
+
+def get_data(today):
+    print('Getting data from {} to {}'.format(today, today))
+    data = {'sDate': today, 'eDate': today, 'Submit': 'Submit'}
     res = requests.post('http://www.austintexas.gov/oss_permits/permit_report.cfm', data=data)
     print(res.status_code, res.request.url)
     if not res.ok:
         print(res.headers)
         print(res.content)
     res.raise_for_status()
-
     return res.content
 
-def parse_data(data):
+def parse_table_html(data):
     data = str(data)
     data = data.replace("\\n","")
     data = data.replace("\\t","")
@@ -35,34 +46,60 @@ def parse_data(data):
     data = data.replace("</td>",delim)
     data = data.replace("<tr>","")
     data = data.replace("</tr>","\n")
-    
     return data
     
-def write_data(start_date, end_date, data, fh):
-    print('Writing data from {} to {}'.format(start_date.format('MM/DD/YYYY'), end_date.format('MM/DD/YYYY')))
-    fh.write(data)
-
-def main(start, end):
-    fh = open(fname, 'a')
-    delta = end - start
-    print(delta)
-    days = delta.days + 2
-    print('Fetching permit reports for {} days'.format(days))
-    for day_number in range(0,days,interval):
-        start_date = start.replace(days=day_number)
-        end_date = start.replace(days=day_number+interval-1)
-        try:
-            data = get_data(start_date, end_date)
-            data = parse_data(data)
-            write_data(start_date, end_date, data, fh)
-        except Exception as e:
-            print('Failed to get data for {} to {}'.format(start_date, end_date))
-            print(e)
-    fh.close()
+def geocode_data(data):
+    geocoded_data = []
+    reader = csv.DictReader(data.split('\n'),  delimiter='|')
+    fieldnames = reader.fieldnames + ['lat'] + ['lng'] + ['accuracy'] + ['city'] + ['postal_code'] + ['state'] + ['county']
     
-fname = "data/data.txt"
-delim = "|" #mr. pipe
-start = arrow.get(2005,1,1) #(YYYY,M,D)
-end = arrow.get(2005,12,31)
-interval = 7 #7 days is the max
-main(start, end)
+    #  create list of unique addresses 
+    for row in reader:
+        address = row['permit_location']
+        if type(address) == str: #  normalize addresses and skip empty address fields
+                address = address.upper().strip()
+        else:
+            continue #  data with invalid address is skipped
+
+        if address not in address_dict:
+            time.sleep(.5) #  delay for .5 seconds between lookup requests. the api limit is 5 requests per second
+            found_address = geocoder.google(address +', Austin, TX')
+            address_dict[address] = found_address
+        
+        if address in address_dict:
+            if address_dict[address].lat:
+                row['lat'] = address_dict[address].lat
+                row['lng'] = address_dict[address].lng
+                row['accuracy'] = address_dict[address].accuracy
+                row["city"] = address_dict[address].city
+                row["county"] = address_dict[address].county
+                row["state"] = address_dict[address].state
+                row["postal_code"] = address_dict[address].postal
+       
+        geocoded_data.append(row) 
+    print(str(len(address_dict)) + " unique addresses geocoded")
+    return (geocoded_data, fieldnames)
+
+def write_data(data, fieldnames):
+    year = arrow.now().format('YYYY')
+    today = arrow.now().format('MM-DD-YY')
+    fname = 'data/{}/permit_report_{}_{}.xls'.format(year, today, today)
+    if not os.path.exists("data/" + year):
+        os.makedirs("data/" + year)
+
+    with open(fname, 'w+') as fh:
+        writer = csv.DictWriter(fh, fieldnames, delimiter = '|', lineterminator='\n')
+        writer.writeheader()
+        writer.writerows(data)
+
+def main(today):
+    print('Fetching permit reports for {}'.format(today))
+    data = get_data(today)
+    data = parse_table_html(data)
+    data = geocode_data(data)
+    write_data(data[0], data[1])
+
+delim = "|"
+address_dict = dict()
+today = arrow.now().format('MM/DD/YYYY')
+main(today)
