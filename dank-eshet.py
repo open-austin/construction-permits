@@ -1,15 +1,14 @@
 #  todo:
-#  use dictwriter to write data
-#  check for year folder and create it if not exists
 #  inconsistent quotes usage
+#  interval must always be one day
 
 import arrow
+import os
 import time
 import requests
 import geocoder
 import logging
 import csv
-import pdb
 
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
@@ -46,8 +45,11 @@ def parse_table_html(data):
     return data
     
 def geocode_data(data):
+    geocoded_data = []
     reader = csv.DictReader(data.split('\n'),  delimiter='|')
+    fieldnames = reader.fieldnames + ['lat'] + ['lng'] + ['accuracy'] + ['city'] + ['postal_code'] + ['state'] + ['county']
     counter = 0
+    
     #  create list of unique addresses 
     for row in reader:
         address = row['permit_location']
@@ -75,14 +77,21 @@ def geocode_data(data):
                 row["state"] = address_dict[address].state
                 row["postal_code"] = address_dict[address].postal
         
-        pdb.set_trace()        
-        return data
+        geocoded_data.append(row)
+        
+    return (geocoded_data, fieldnames)
 
-def write_data(start_date, end_date, data):
+def write_data(start_date, end_date, data, fieldnames):
     fname = 'data/{}/permit_report_{}_{}.xls'.format(start_date.format('YYYY'), start_date.format('MM-DD-YY'), end_date.format('MM-DD-YY'))
+    folder = start_date.format('YYYY')
+    if not os.path.exists("data/" + folder):
+        os.makedirs("data/" + folder)
+        
     print('Writing data from {} to {}'.format(start_date.format('MM/DD/YYYY'), end_date.format('MM/DD/YYYY')))
     with open(fname, 'w+') as fh:
-        fh.write(data)
+        writer = csv.DictWriter(fh, fieldnames, delimiter = '|', lineterminator='\n')
+        writer.writeheader()
+        writer.writerows(data)
 
 def main(start, end):
     delta = end - start
@@ -94,7 +103,7 @@ def main(start, end):
         data = get_data(start_date, end_date)
         data = parse_table_html(data)
         data = geocode_data(data)
-        write_data(start_date, end_date, data)
+        write_data(start_date, end_date, data[0], data[1])
     
 delim = "|"
 start = arrow.get(2015,12,7) #  (YYYY,M,D)
