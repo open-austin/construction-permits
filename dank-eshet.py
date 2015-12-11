@@ -1,6 +1,8 @@
 #  todo:
 #  inconsistent quotes usage
 #  interval must always be current date
+#  throw out matches that match citycenter
+#  extra column before geocoded fields
 
 import arrow
 import os
@@ -20,11 +22,9 @@ requests_log.propagate = True
 #  debugging vars
 bill = []
 
-def get_data(start_date, end_date):
-    start = start_date.format('MM/DD/YYYY')
-    end = end_date.format('MM/DD/YYYY')
-    print('Getting data from {} to {}'.format(start, end))
-    data = {'sDate': start, 'eDate': end, 'Submit': 'Submit'}
+def get_data(today):
+    print('Getting data from {} to {}'.format(today, today))
+    data = {'sDate': today, 'eDate': today, 'Submit': 'Submit'}
     res = requests.post('http://www.austintexas.gov/oss_permits/permit_report.cfm', data=data)
     print(res.status_code, res.request.url)
     if not res.ok:
@@ -80,33 +80,26 @@ def geocode_data(data):
     print(str(len(address_dict)) + " unique addresses geocoded")
     return (geocoded_data, fieldnames)
 
-def write_data(start_date, end_date, data, fieldnames):
-    fname = 'data/{}/permit_report_{}_{}.xls'.format(start_date.format('YYYY'), start_date.format('MM-DD-YY'), end_date.format('MM-DD-YY'))
-    folder = start_date.format('YYYY')
-    if not os.path.exists("data/" + folder):
-        os.makedirs("data/" + folder)
-        
-    print('Writing data from {} to {}'.format(start_date.format('MM/DD/YYYY'), end_date.format('MM/DD/YYYY')))
+def write_data(data, fieldnames):
+    year = arrow.now().format('YYYY')
+    today = arrow.now().format('MM-DD-YY')
+    fname = 'data/{}/permit_report_{}_{}.xls'.format(year, today, today)
+    if not os.path.exists("data/" + year):
+        os.makedirs("data/" + year)
+
     with open(fname, 'w+') as fh:
         writer = csv.DictWriter(fh, fieldnames, delimiter = '|', lineterminator='\n')
         writer.writeheader()
         writer.writerows(data)
 
-def main(start, end):
-    delta = end - start
-    days = delta.days + 1
-    print('Fetching permit reports for {} days'.format(days))
-    for day_number in range(0, days, interval):
-        start_date = start.replace(days=day_number)
-        end_date = start.replace(days=day_number+interval-1)
-        data = get_data(start_date, end_date)
-        data = parse_table_html(data)
-        data = geocode_data(data)
-        write_data(start_date, end_date, data[0], data[1])
-    
+def main(today):
+    print('Fetching permit reports for {}'.format(today))
+    data = get_data(today)
+    data = parse_table_html(data)
+    data = geocode_data(data)
+    write_data(data[0], data[1])
+
 delim = "|"
-start = arrow.get(2015,12,7) #  (YYYY,M,D)
-end = arrow.get(2015,12,7)
-interval = 1 #  download, geocode, and write one day at a time
 address_dict = dict()
-main(start, end)
+today = arrow.now().format('MM/DD/YYYY')
+main(today)
