@@ -1,6 +1,6 @@
 #  todo:
 #  inconsistent quotes usage
-#  interval must always be one day
+#  interval must always be current date
 
 import arrow
 import os
@@ -9,6 +9,7 @@ import requests
 import geocoder
 import logging
 import csv
+import pdb
 
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
@@ -26,7 +27,10 @@ def get_data(start_date, end_date):
     data = {'sDate': start, 'eDate': end, 'Submit': 'Submit'}
     res = requests.post('http://www.austintexas.gov/oss_permits/permit_report.cfm', data=data)
     print(res.status_code, res.request.url)
-
+    if not res.ok:
+        print(res.headers)
+        print(res.content)
+    res.raise_for_status()
     return res.content
 
 def parse_table_html(data):
@@ -48,24 +52,19 @@ def geocode_data(data):
     geocoded_data = []
     reader = csv.DictReader(data.split('\n'),  delimiter='|')
     fieldnames = reader.fieldnames + ['lat'] + ['lng'] + ['accuracy'] + ['city'] + ['postal_code'] + ['state'] + ['county']
-    counter = 0
     
     #  create list of unique addresses 
     for row in reader:
         address = row['permit_location']
-         
         if type(address) == str: #  normalize addresses and skip empty address fields
                 address = address.upper().strip()
         else:
             continue #  data with invalid address is skipped
 
         if address not in address_dict:
-            if counter < 2: #  only geocode a few records (dev only)
-                print("hey!")
-                counter =  counter + 1
-                time.sleep(.5) #  delay for .5 seconds between lookup requests. the api limit is 5 requests per second
-                found_address = geocoder.google(address +', Austin, TX')
-                address_dict[address] = found_address
+            time.sleep(.5) #  delay for .5 seconds between lookup requests. the api limit is 5 requests per second
+            found_address = geocoder.google(address +', Austin, TX')
+            address_dict[address] = found_address
         
         if address in address_dict:
             if address_dict[address].lat:
@@ -76,9 +75,9 @@ def geocode_data(data):
                 row["county"] = address_dict[address].county
                 row["state"] = address_dict[address].state
                 row["postal_code"] = address_dict[address].postal
-        
-        geocoded_data.append(row)
-        
+       
+        geocoded_data.append(row) 
+    print(str(len(address_dict)) + " unique addresses geocoded")
     return (geocoded_data, fieldnames)
 
 def write_data(start_date, end_date, data, fieldnames):
