@@ -1,8 +1,3 @@
-#  todo:
-#  inconsistent quotes usage
-#  throw out matches that match citycenter
-#  extra column before geocoded fields
-
 import arrow
 import os
 import time
@@ -37,7 +32,7 @@ def parse_table_html(data):
     data = str(data)
     data = data.replace('\\n', '')
     data = data.replace('\\t', '')
-    data = data.replace('b', '')
+    data = data.replace("b'", '')
     data = data.replace('<table border="1">', '')
     data = data.replace('</table>', '')
     data = data.replace('<th>', '')
@@ -52,31 +47,34 @@ def parse_table_html(data):
 def geocode_data(data):
     geocoded_data = []
     reader = csv.DictReader(data.split('\n'), delimiter=DELIM)
-    fieldnames = reader.fieldnames + ['lat'] + ['lng'] + ['accuracy'] + ['city'] + ['postal_code'] + ['state'] + ['county']
-
+    fieldnames = reader.fieldnames + ['geocoded_address'] + ['lat'] + ['lng'] + ['accuracy'] + ['city'] + ['postal_code'] + ['state'] + ['county']
+    scrubbers = [' EB', ' SB', ' NB', ' WB', 'SVRD', ' AKA ', ' aka ', 'Blk', 'Block of ', '\'', 'UNK ']
+    
     #  create list of unique addresses
     for row in reader:
         address = row['permit_location']
         if type(address) == str:  # normalize addresses and skip empty address fields
+                for scrubber in scrubbers:
+                    address = address.replace(scrubber, ' ')
                 address = address.upper().strip()
         else:
+            geocoded_data.append(row)
             continue  # data with invalid address is skipped
 
         if address not in address_dict:
-            time.sleep(.5)  # delay for .5 seconds between lookup requests. the api limit is 5 requests per second
+            time.sleep(.3)  # delay for .3 seconds between lookup requests. the api limit is 5 requests per second
             found_address = geocoder.google(address + ', Austin, TX')
             address_dict[address] = found_address
-
-        if address in address_dict:
-            if address_dict[address].lat:
-                row['lat'] = address_dict[address].lat
-                row['lng'] = address_dict[address].lng
-                row['accuracy'] = address_dict[address].accuracy
-                row['city'] = address_dict[address].city
-                row['county'] = address_dict[address].county
-                row['state'] = address_dict[address].state
-                row['postal_code'] = address_dict[address].postal
-
+ 
+        if address_dict[address].lat:
+            row['geocoded_address'] = address_dict[address].address
+            row['lat'] = address_dict[address].lat
+            row['lng'] = address_dict[address].lng
+            row['accuracy'] = address_dict[address].accuracy
+            row['city'] = address_dict[address].city
+            row['county'] = address_dict[address].county
+            row['state'] = address_dict[address].state
+            row['postal_code'] = address_dict[address].postal
         geocoded_data.append(row)
     print(str(len(address_dict)) + ' unique addresses geocoded')
     return (geocoded_data, fieldnames)
