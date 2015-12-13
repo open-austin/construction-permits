@@ -32,7 +32,7 @@ def parse_table_html(data):
     data = str(data)
     data = data.replace('\\n', '')
     data = data.replace('\\t', '')
-    data = data.replace("b'", '')
+    data = data.replace('b\'', '')
     data = data.replace('<table border="1">', '')
     data = data.replace('</table>', '')
     data = data.replace('<th>', '')
