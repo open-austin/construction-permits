@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # Hello, this program is written in Python - http://python.org
 programname = 'html2csv - version 2002-09-20 - http://sebsauvage.net'
@@ -30,7 +31,8 @@ Examples   : %s mypage.html
            : %s *.html
 
 This program is public domain.
-Author : Sebastien SAUVAGE <sebsauvage at sebsauvage dot net>
+Author : Sebastien SA
+# -*- coding: utf-8 -*-
          http://sebsauvage.net
 ''' % (programname, progname, progname, progname)
 

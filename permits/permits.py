@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # todo:
 # throw out matches that match citycenter
@@ -7,7 +8,7 @@
 
 import csv
 import logging
-import StringIO
+from StringIO import StringIO
 import time
 
 import arrow
@@ -16,7 +17,6 @@ import requests
 
 import github
 from html2csv import html2csv
-from secrets import GITHUB_AUTH
 
 
 ADDRESS_CACHE = {}
@@ -52,7 +52,7 @@ def parse_html(html):
     parser.feed(html)
     csv_text = parser.getCSV()
 
-    file = StringIO.StringIO(csv_text)
+    file = StringIO(csv_text)
     reader = csv.DictReader(file)
 
     return reader
@@ -104,42 +104,41 @@ def write_permits_file(filename, rows, fieldnames):
 
 
 def write_permits_github(filename, rows, fieldnames):
-    fh = StringIO.StringIO()
+    fh = StringIO()
     write_permits(fh, rows, fieldnames)
-    csv_text = fh.read()
-    github.create_file(filename, 'master', csv_text, 'Automated commit {}'.format(filename), GITHUB_AUTH)
+    csv_text = StringIO.getvalue(fh)
+    github.create_or_update_file(filename, 'master', csv_text, 'Automated commit {}'.format(filename))
 
 
 def write_permits(file, rows, fieldnames):
-    writer = csv.DictWriter(file, fieldnames)
+    writer = csv.DictWriter(file, fieldnames, lineterminator='\n')
     writer.writeheader()
     writer.writerows(rows)
 
 
-def store_permits_for_date(date):
+def store_permits_for_date(date, in_lambda=False):
     print('Fetching permit reports for {}'.format(date))
     try:
         html = fetch_permits(date)
         reader = parse_html(html)
         rows = parse_permits(reader)
+
         filename = 'data/{}/{}.csv'.format(date.format('YYYY'), date.format('YYYY-MM-DD'))
         fieldnames = reader.fieldnames + ['geocoded_address', 'lat', 'lng', 'accuracy', 'city', 'postal_code', 'state', 'county']
-        write_permits(filename, rows, fieldnames)
+
+        if not in_lambda:
+            write_permits_file(filename, rows, fieldnames)
+        write_permits_github(filename, rows, fieldnames)
     except Exception as e:
         print('Failed to get data for {}'.format(date))
         print(e)
         raise e
 
 
-def main():
+def lambda_handler(event, context):
     today = arrow.now().replace(days=-1)
-    store_permits_for_date(today)
-
-
-def handler(event, context):
-    print(event)
-    print(context)
-    main()
+    store_permits_for_date(today, in_lambda=True)
 
 if __name__ == '__main__':
-    main()
+    today = arrow.now().replace(days=-1)
+    store_permits_for_date(today, in_lambda=False)
