@@ -1,4 +1,3 @@
-import csv
 import json
 import os
 import mock
@@ -6,6 +5,7 @@ import unittest
 
 from permits.permits import parse_permits
 from permits.permits import parse_html
+from permits.permits import write_permits_github
 
 
 class MockAddress():
@@ -36,3 +36,10 @@ class TestPermits(unittest.TestCase):
 
         expected = json.loads(self.get_data_file('results.json'))
         self.assertEqual(expected, rows)
+
+    def test_write_permits_github(self):
+        with mock.patch('permits.github.create_or_update_file', mock.Mock()) as create_or_update_file:
+            write_permits_github('wef', [{'A': 31, 'B': 52, 'C': 3}, {'A': 4}], ['A', 'B', 'C'])
+
+        expected_args = [mock.call('wef', 'master', 'A,B,C\n31,52,3\n4,,\n', 'Automated commit wef', ('luqmaan', '07cfcee0eff4337dc251608bcd0553639cf5c405'))]
+        self.assertEqual(expected_args, create_or_update_file.call_args_list)

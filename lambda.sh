@@ -28,10 +28,11 @@ aws lambda update-function-code \
 # aws lambda update-function-configuration \
 # --function-name construction-permits \
 # --timeout 300 \
-# --handler permits.handler
+# --handler permits.lambda_handler
 
 aws lambda invoke \
 --invocation-type Event \
 --function-name construction-permits \
 --region us-west-2 \
---profile permits
+--profile permits \
+outfile.txt

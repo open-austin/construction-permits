@@ -22,10 +22,20 @@ Run the tests:
 nosetests
 ```
 
+Deploy to AWS Lambda:
+
+```
+./lambda.sh
+```
+
 ## Scheduled
 
-Once a day an AWS lambda job runs `python src/main.py` on yesterday's permits. It then commits the data to this repo. Because this is run as AWS Lambda this code is in Python 2. Also, we're trying to avoid libraries with CSV extensions (like pandas or lxml).
+Twice a day an AWS lambda job runs `permits.lambda_handler`.
+
+It fetches yesterday's permits, geocodes the addresses, and then uses the GitHub API to commit the data to this repo. This code is Python 2 because is run as an AWS Lambda. Another side effect of being a lambda is we're trying to avoid dependencies with C extensions like pandas.
 
 ## License
 
 The code for this repository has been released into the public domain by Open Austin via the Unlicense.
+
+Created by @spatialaustin and @luqmaan.
