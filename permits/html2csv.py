@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# -*- coding: iso-8859-1 -*-
+#!/usr/bin/env python
+
 # Hello, this program is written in Python - http://python.org
 programname = 'html2csv - version 2002-09-20 - http://sebsauvage.net'
 

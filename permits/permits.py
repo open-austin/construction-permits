@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # todo:
 # throw out matches that match citycenter
@@ -14,7 +14,9 @@ import arrow
 import geocoder
 import requests
 
+import github
 from html2csv import html2csv
+from secrets import GITHUB_AUTH
 
 
 ADDRESS_CACHE = {}
@@ -95,14 +97,23 @@ def geocode_address(permit_location):
     return geocoded_address
 
 
-def write_permits(date, rows, fieldnames):
-    fname = 'data/{}/{}.csv'.format(date.format('YYYY'), date.format('YYYY-MM-DD'))
-    print('Writing data to {}'.format(fname))
+def write_permits_file(filename, rows, fieldnames):
+    with open(filename, 'w+') as fh:
+        print('Writing data to file {}'.format(filename))
+        write_permits(fh, rows, fieldnames)
 
-    with open(fname, 'w+') as fh:
-        writer = csv.DictWriter(fh, fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+
+def write_permits_github(filename, rows, fieldnames):
+    fh = StringIO.StringIO()
+    write_permits(fh, rows, fieldnames)
+    csv_text = fh.read()
+    github.create_file(filename, 'master', csv_text, 'Automated commit {}'.format(filename), GITHUB_AUTH)
+
+
+def write_permits(file, rows, fieldnames):
+    writer = csv.DictWriter(file, fieldnames)
+    writer.writeheader()
+    writer.writerows(rows)
 
 
 def store_permits_for_date(date):
@@ -111,8 +122,9 @@ def store_permits_for_date(date):
         html = fetch_permits(date)
         reader = parse_html(html)
         rows = parse_permits(reader)
+        filename = 'data/{}/{}.csv'.format(date.format('YYYY'), date.format('YYYY-MM-DD'))
         fieldnames = reader.fieldnames + ['geocoded_address', 'lat', 'lng', 'accuracy', 'city', 'postal_code', 'state', 'county']
-        write_permits(date, rows, fieldnames)
+        write_permits(filename, rows, fieldnames)
     except Exception as e:
         print('Failed to get data for {}'.format(date))
         print(e)
