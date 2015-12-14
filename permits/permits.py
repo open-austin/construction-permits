@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # todo:
 # throw out matches that match citycenter
 # extra column before geocoded fields
@@ -117,6 +119,15 @@ def store_permits_for_date(date):
         raise e
 
 
-if __name__ == '__main__':
+def main():
     today = arrow.now().replace(days=-1)
     store_permits_for_date(today)
+
+
+def handler(event, context):
+    print(event)
+    print(context)
+    main()
+
+if __name__ == '__main__':
+    main()
