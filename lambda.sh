@@ -34,4 +34,5 @@ aws lambda invoke \
 --invocation-type Event \
 --function-name construction-permits \
 --region us-west-2 \
---profile permits
+--profile permits \
+outfile.txt
