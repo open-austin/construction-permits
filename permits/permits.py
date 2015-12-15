@@ -136,9 +136,9 @@ def store_permits_for_date(date, in_lambda=False):
 
 
 def lambda_handler(event, context):
-    today = arrow.now().replace(days=-1)
+    today = arrow.now('America/Chicago')
     store_permits_for_date(today, in_lambda=True)
 
 if __name__ == '__main__':
-    today = arrow.now().replace(days=-1)
+    today = arrow.now('America/Chicago')
     store_permits_for_date(today, in_lambda=False)
