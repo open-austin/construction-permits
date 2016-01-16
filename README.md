@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Get today's construction permits and store them in the `data` directory:
 
 ```
-python src/permits.py
+python permits/permits.py
 ```
 
 Run the tests:
