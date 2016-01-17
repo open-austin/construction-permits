@@ -10,6 +10,11 @@ Install the requirements:
 pip install -r requirements.txt
 ```
 
+Set up a secrets file (`permits/secrets.py`):
+```
+GITHUB_AUTH=<github auth key>
+```
+
 Get today's construction permits and store them in the `data` directory:
 
 ```
