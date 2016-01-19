@@ -17,10 +17,10 @@ import requests
 
 import github
 from html2csv import html2csv
-
+import secrets
 
 ADDRESS_CACHE = {}
-SLEEP_TIME = 0.3
+SLEEP_TIME = 0.2
 SCRUBBERS = [' EB', ' SB', ' NB', ' WB', 'SVRD', ' AKA ', ' aka ', 'Blk', 'Block of ', '\'', 'UNK ']
 
 logging.basicConfig()
@@ -70,7 +70,7 @@ def parse_permits(reader):
             row['lng'] = address.lng
             row['accuracy'] = address.accuracy
             row['city'] = address.city
-            row['county'] = address.county
+            row['county'] = getattr(address, 'county', '')
             row['state'] = address.state
             row['postal_code'] = address.postal
 
@@ -90,7 +90,7 @@ def geocode_address(permit_location):
         address = address.replace(scrubber, ' ')
     address = '{}, Austin, TX'.format(address)
 
-    geocoded_address = geocoder.google(address)
+    geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
     ADDRESS_CACHE[permit_location] = geocoded_address
     time.sleep(SLEEP_TIME)
 

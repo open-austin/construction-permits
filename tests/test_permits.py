@@ -26,7 +26,7 @@ class TestPermits(unittest.TestCase):
         with open(os.path.join('tests', 'fixtures', path), 'r') as fh:
             return fh.read()
 
-    @mock.patch('geocoder.google', lambda x: MockAddress())
+    @mock.patch('geocoder.mapzen', lambda x: MockAddress())
     @mock.patch('permits.permits.SLEEP_TIME', 0)
     def test_parse_permits(self):
         permits_html = self.get_data_file('permits.html')
