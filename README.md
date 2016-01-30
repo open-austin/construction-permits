@@ -1,6 +1,8 @@
 # City of Austin Construction Permits
 
-Data scraped from http://www.austintexas.gov/oss_permits/permit_report.cfm.
+A searchable database of construction permits issued by the City of Austin since 1980. 
+
+Data is scraped from http://www.austintexas.gov/oss_permits/permit_report.cfm on a daily basis.
 
 ## Usage
 
