@@ -1,7 +1,7 @@
 field mapping of City of Austin permit data to BLDS standard,,,
 https://github.com/open-data-standards/permitdata.org/wiki/Core-Permits-Dataset-Requirements,,,
 ,,,
-CITY OF AUSTINS FIELDS,BLDS,NOTE1,NOTE2
+CITY OF AUSTINS FIELDS,BLDS FIELDS,NOTE1,NOTE2
 permit_number,PermitNum,required,
 sub_type,PermitType,required,
 work_type,WorkClass,recommended,
