@@ -1,3 +1,4 @@
+import attrdict
 import json
 import os
 import mock
@@ -7,10 +8,23 @@ from permits.permits import parse_permits
 from permits.permits import parse_html
 from permits.permits import write_permits_github
 
+def mock_geocode_from_coa_address_server(permit_location):
+    # return None for roughly half of geocode attempts
+    h = hash(permit_location)
+    if h % 2:
+        return
+    return attrdict.AttrDefault(lambda : None, {
+        'lng': 'lng',
+        'lat': 'lat',
+        'address': 'address',
+        'geocoder': 'coa_addresses',
+    })
 
-class MockAddress():
+
+class MockGeocoderAddress():
     def __init__(self):
         self.address = 'address'
+        self.geocoder = 'geocoder'
         self.lat = 'lat'
         self.lng = 'lng'
         self.accuracy = 'accuracy'
@@ -20,20 +34,24 @@ class MockAddress():
         self.postal = 'postal'
 
 
+def mock_geocoder(address, **kwargs):
+    return MockGeocoderAddress()
+
+
 class TestPermits(unittest.TestCase):
 
     def get_data_file(self, path):
         with open(os.path.join('tests', 'fixtures', path), 'r') as fh:
             return fh.read()
 
-    @mock.patch('geocoder.mapzen', lambda x: MockAddress())
+    @mock.patch('geocoder.mapzen', mock_geocoder)
+    @mock.patch('permits.permits.geocode_from_coa_address_server', mock_geocode_from_coa_address_server)
     @mock.patch('permits.permits.SLEEP_TIME', 0)
     def test_parse_permits(self):
         permits_html = self.get_data_file('permits.html')
         reader = parse_html(permits_html)
 
         rows = parse_permits(reader)
-
         expected = json.loads(self.get_data_file('results.json'))
         self.assertEqual(expected, rows)
 
