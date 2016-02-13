@@ -66,6 +66,7 @@ def parse_permits(reader):
         address = geocode_address(row['permit_location'])
         if address and address.lat:
             row['geocoded_address'] = address.address
+            row['geocoder'] = address.geocoder
             row['lat'] = address.lat
             row['lng'] = address.lng
             row['accuracy'] = address.accuracy
@@ -92,6 +93,7 @@ def geocode_address(permit_location):
         address = '{}, Austin, TX'.format(address)
 
         geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
+        geocoded_address.geocoder = 'mapzen'
         ADDRESS_CACHE[permit_location] = geocoded_address
         time.sleep(SLEEP_TIME)
 
@@ -146,7 +148,7 @@ def store_permits_for_date(date, in_lambda=False):
         rows = parse_permits(reader)
 
         filename = 'data/{}/{}.csv'.format(date.format('YYYY'), date.format('YYYY-MM-DD'))
-        fieldnames = reader.fieldnames + ['geocoded_address', 'lat', 'lng', 'accuracy', 'city', 'postal_code', 'state', 'county']
+        fieldnames = reader.fieldnames + ['geocoded_address', 'geocoder', 'lat', 'lng', 'accuracy', 'city', 'postal_code', 'state', 'county']
 
         if not in_lambda:
             write_permits_file(filename, rows, fieldnames)
