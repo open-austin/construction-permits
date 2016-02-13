@@ -12,6 +12,7 @@ from StringIO import StringIO
 import time
 
 import arrow
+import attrdict
 import geocoder
 import requests
 
@@ -60,7 +61,6 @@ def parse_html(html):
 
 def parse_permits(reader):
     rows = []
-    reader = [row for row in reader]
 
     for row in reader:
         address = geocode_address(row['permit_location'])
@@ -75,7 +75,6 @@ def parse_permits(reader):
             row['postal_code'] = address.postal
 
         rows.append(row)
-
     return rows
 
 
@@ -85,16 +84,39 @@ def geocode_address(permit_location):
     if type(permit_location) is not str:
         return
 
-    address = permit_location.upper().strip()
-    for scrubber in SCRUBBERS:
-        address = address.replace(scrubber, ' ')
-    address = '{}, Austin, TX'.format(address)
+    geocoded_address = geocode_from_coa_address_server(permit_location)
+    if not geocoded_address:
+        address = permit_location.upper().strip()
+        for scrubber in SCRUBBERS:
+            address = address.replace(scrubber, ' ')
+        address = '{}, Austin, TX'.format(address)
 
-    geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
-    ADDRESS_CACHE[permit_location] = geocoded_address
-    time.sleep(SLEEP_TIME)
+        geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
+        ADDRESS_CACHE[permit_location] = geocoded_address
+        time.sleep(SLEEP_TIME)
 
     return geocoded_address
+
+
+def geocode_from_coa_address_server(permit_location):
+    permit_location = permit_location.split('UNIT')[0]
+    permit_location = permit_location.split('BLDG')[0]
+    permit_location = permit_location.strip()
+    url = "http://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/LOCATION_address_point/FeatureServer/0/query?where=full_street_name+LIKE+'{permit_location}'&f=pgeojson&outSR=4326&outFields=*".format(permit_location=permit_location)
+    req = requests.get(url)
+    features = req.json().get('features')
+    if len(features) != 1:
+        return
+    else:
+        feature = features[0]
+        coordinates = feature.get('geometry').get('coordinates')
+        props = feature.get('properties')
+        return attrdict.AttrDefault(lambda : None, {
+            'lng': coordinates[0],
+            'lat': coordinates[1],
+            'address': props.get('FULL_STREET_NAME'),
+            'geocoder': 'coa_addresses',
+        })
 
 
 def write_permits_file(filename, rows, fieldnames):
@@ -138,6 +160,7 @@ def store_permits_for_date(date, in_lambda=False):
 def lambda_handler(event, context):
     today = arrow.now('America/Chicago')
     store_permits_for_date(today, in_lambda=True)
+
 
 if __name__ == '__main__':
     today = arrow.now('America/Chicago')
