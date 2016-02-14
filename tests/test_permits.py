@@ -10,7 +10,7 @@ from permits.permits import write_permits_github
 
 def mock_geocode_from_coa_address_server(permit_location):
     # return None for roughly half of geocode attempts
-    h = hash(permit_location)
+    h = sum([ord(c) for c in permit_location])
     if h % 2:
         return
     return attrdict.AttrDefault(lambda : None, {
