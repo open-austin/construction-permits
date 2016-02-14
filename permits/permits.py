@@ -125,6 +125,7 @@ def geocode_from_coa_address_server(permit_location):
             'lat': coordinates[1],
             'lng': coordinates[0],
             'postal': zipcode,
+            'state': 'Texas',
         })
 
 
