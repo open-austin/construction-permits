@@ -1,4 +1,3 @@
-import attrdict
 import json
 import os
 import mock
@@ -13,12 +12,15 @@ def mock_geocode_from_coa_address_server(permit_location):
     h = sum([ord(c) for c in permit_location])
     if h % 2:
         return
-    return attrdict.AttrDefault(lambda : None, {
+    return {
         'lng': 'lng',
         'lat': 'lat',
         'address': 'address',
         'geocoder': 'coa_addresses',
-    })
+        'city': 'city',
+        'postal': 'postal',
+        'state': 'state',
+    }
 
 
 class MockGeocoderAddress():

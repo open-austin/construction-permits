@@ -12,7 +12,6 @@ from StringIO import StringIO
 import time
 
 import arrow
-import attrdict
 import geocoder
 import requests
 
@@ -64,16 +63,8 @@ def parse_permits(reader):
 
     for row in reader:
         address = geocode_address(row['permit_location'])
-        if address and address.lat:
-            row['geocoded_address'] = address.address
-            row['geocoder'] = address.geocoder
-            row['lat'] = address.lat
-            row['lng'] = address.lng
-            row['accuracy'] = address.accuracy
-            row['city'] = address.city
-            row['county'] = getattr(address, 'county', '')
-            row['state'] = address.state
-            row['postal_code'] = address.postal
+        if address and address.get('lat'):
+            row.update(address)
 
         rows.append(row)
     return rows
@@ -92,9 +83,19 @@ def geocode_address(permit_location):
             address = address.replace(scrubber, ' ')
         address = '{}, Austin, TX'.format(address)
 
-        geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
-        geocoded_address.geocoder = 'mapzen'
+        geocode = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
 
+        geocoded_address = {
+            'geocoded_address': geocode.address,
+            'geocoder': 'mapzen',
+            'lat': geocode.lat,
+            'lng': geocode.lng,
+            'accuracy': geocode.accuracy,
+            'city': geocode.city,
+            'county': getattr(geocode, 'county', ''),
+            'state': geocode.state,
+            'postal_code': geocode.postal,
+        }
 
     ADDRESS_CACHE[permit_location] = geocoded_address
     time.sleep(SLEEP_TIME)
@@ -120,15 +121,15 @@ def geocode_from_coa_address_server(permit_location):
         city_name = city_name_for_point(*coordinates)
         zipcode = zipcode_for_point(*coordinates)
         props = feature.get('properties')
-        return attrdict.AttrDefault(lambda : None, {
-            'address': props.get('FULL_STREET_NAME'),
-            'city': city_name,
+        return {
+            'geocoded_address': props.get('FULL_STREET_NAME'),
             'geocoder': 'coa_addresses',
             'lat': coordinates[1],
             'lng': coordinates[0],
-            'postal': zipcode,
+            'city': city_name,
+            'postal_code': zipcode,
             'state': 'Texas',
-        })
+        }
 
 
 def city_name_for_point(lng, lat):
