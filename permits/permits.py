@@ -104,21 +104,74 @@ def geocode_from_coa_address_server(permit_location):
     permit_location = permit_location.split('UNIT')[0]
     permit_location = permit_location.split('BLDG')[0]
     permit_location = permit_location.strip()
-    url = "http://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/LOCATION_address_point/FeatureServer/0/query?where=full_street_name+LIKE+'{permit_location}'&f=pgeojson&outSR=4326&outFields=*".format(permit_location=permit_location)
-    req = requests.get(url)
-    features = req.json().get('features')
-    if len(features) != 1:
-        return
-    else:
-        feature = features[0]
+    url = "http://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/LOCATION_address_point/FeatureServer/0/query"
+    req = requests.get(url, {
+        'where': "full_street_name LIKE '{permit_location}'".format(permit_location=permit_location),
+        'outFields': '*',
+        'returnGeometry': 'true',
+        'outSR': '4326',
+        'f': 'pgeojson',
+    })
+    feature = _get_single_feature_only(req)
+    if feature:
         coordinates = feature.get('geometry').get('coordinates')
+        city_name = city_name_for_point(*coordinates)
+        zipcode = zipcode_for_point(*coordinates)
         props = feature.get('properties')
         return attrdict.AttrDefault(lambda : None, {
-            'lng': coordinates[0],
-            'lat': coordinates[1],
             'address': props.get('FULL_STREET_NAME'),
+            'city': city_name,
             'geocoder': 'coa_addresses',
+            'lat': coordinates[1],
+            'lng': coordinates[0],
+            'postal': zipcode,
         })
+
+
+def city_name_for_point(lng, lat):
+    """returns city name for a given point, queried from CoA jurisdiction
+    boundary data"""
+    url = 'http://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/BOUNDARIES_jurisdictions/FeatureServer/0/query'
+    return _property_where_intersects(url, 'CITY_NAME', lng, lat)
+
+
+def zipcode_for_point(lng, lat):
+    """returns zipcode for a given point, queried from CoA zipcode boundary data"""
+    url = 'http://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/LOCATION_zipcodes/FeatureServer/0/query'
+    return _property_where_intersects(url, 'ZIPCODE', lng, lat)
+
+
+def _property_where_intersects(query_url, property_name, lng, lat):
+    """queries for feature that intersects a given point, an returns the value
+    of property_name at that point"""
+    req = requests.get(query_url, {
+        'geometry': '{lng},{lat}'.format(lng=lng, lat=lat),
+        'geometryType': 'esriGeometryPoint',
+        'inSR': '4326',
+        'spatialRel': 'esriSpatialRelIntersects',
+        'outFields': '*',
+        'returnGeometry': 'false',
+        'outSR': '4326',
+        'f': 'pgeojson'
+    })
+    feature = _get_single_feature_only(req)
+    if feature:
+        return feature['properties'].get(property_name)
+    else:
+        return ''
+
+
+def _get_single_feature_only(req):
+    """returns feature from ArcGIS feature server geojson response only when
+    there is a single feature in the response. Returns None if there are no
+    features or more than one feature.
+    """
+    json_response = req.json()
+    features = json_response.get('features')
+    if features is not None and len(features) != 1:
+        return
+    else:
+        return features[0]
 
 
 def write_permits_file(filename, rows, fieldnames):
