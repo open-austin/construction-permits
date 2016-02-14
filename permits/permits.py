@@ -94,8 +94,10 @@ def geocode_address(permit_location):
 
         geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
         geocoded_address.geocoder = 'mapzen'
-        ADDRESS_CACHE[permit_location] = geocoded_address
-        time.sleep(SLEEP_TIME)
+
+
+    ADDRESS_CACHE[permit_location] = geocoded_address
+    time.sleep(SLEEP_TIME)
 
     return geocoded_address
 
