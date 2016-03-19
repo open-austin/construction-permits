@@ -18,28 +18,33 @@ def geocode_address(permit_location):
 
     geocoded_address = geocode_from_coa_address_server(permit_location)
     if not geocoded_address:
-        address = permit_location.upper().strip()
-        for scrubber in SCRUBBERS:
-            address = address.replace(scrubber, ' ')
-        address = '{}, Austin, TX'.format(address)
-
-        geocode = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
-
-        geocoded_address = {
-            'geocoded_address': geocode.address,
-            'geocoder': 'mapzen',
-            'lat': geocode.lat,
-            'lng': geocode.lng,
-            'accuracy': geocode.accuracy,
-            'city': geocode.city,
-            'county': getattr(geocode, 'county', ''),
-            'state': geocode.state,
-            'postal_code': geocode.postal,
-        }
+        geocoded_address = geocode_from_mapzen(permit_location)
 
     ADDRESS_CACHE[permit_location] = geocoded_address
     time.sleep(SLEEP_TIME)
 
+    return geocoded_address
+
+
+def geocode_from_mapzen(permit_location):
+    address = permit_location.upper().strip()
+    for scrubber in SCRUBBERS:
+        address = address.replace(scrubber, ' ')
+    address = '{}, Austin, TX'.format(address)
+
+    geocode = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
+
+    geocoded_address = {
+        'geocoded_address': geocode.address,
+        'geocoder': 'mapzen',
+        'lat': geocode.lat,
+        'lng': geocode.lng,
+        'accuracy': geocode.accuracy,
+        'city': geocode.city,
+        'county': getattr(geocode, 'county', ''),
+        'state': geocode.state,
+        'postal_code': geocode.postal,
+    }
     return geocoded_address
 
 
