@@ -7,6 +7,7 @@ from permits.permits import parse_permits
 from permits.permits import parse_html
 from permits.permits import write_permits_github
 
+
 def mock_geocode_from_coa_address_server(permit_location):
     # return None for roughly half of geocode attempts
     h = sum([ord(c) for c in permit_location])
@@ -47,8 +48,8 @@ class TestPermits(unittest.TestCase):
             return fh.read()
 
     @mock.patch('geocoder.mapzen', mock_geocoder)
-    @mock.patch('permits.permits.geocode_from_coa_address_server', mock_geocode_from_coa_address_server)
-    @mock.patch('permits.permits.SLEEP_TIME', 0)
+    @mock.patch('permits.geocode.geocode_from_coa_address_server', mock_geocode_from_coa_address_server)
+    @mock.patch('permits.geocode.SLEEP_TIME', 0)
     def test_parse_permits(self):
         permits_html = self.get_data_file('permits.html')
         reader = parse_html(permits_html)
