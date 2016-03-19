@@ -16,26 +16,26 @@ def geocode_address(permit_location):
     if type(permit_location) is not str:
         return
 
-    geocoded_address = geocode_from_coa_address_server(permit_location)
-    if not geocoded_address:
-        geocoded_address = geocode_from_mapzen(permit_location)
+    geocoded_feature = geocode_from_coa_feature_server(permit_location)
+    if not geocoded_feature:
+        geocoded_feature = geocode_from_mapzen(permit_location)
 
-    ADDRESS_CACHE[permit_location] = geocoded_address
+    ADDRESS_CACHE[permit_location] = geocoded_feature
     time.sleep(SLEEP_TIME)
 
-    return geocoded_address
+    return geocoded_feature
 
 
 def geocode_from_mapzen(permit_location):
-    address = permit_location.upper().strip()
+    feature = permit_location.upper().strip()
     for scrubber in SCRUBBERS:
-        address = address.replace(scrubber, ' ')
-    address = '{}, Austin, TX'.format(address)
+        feature = feature.replace(scrubber, ' ')
+    feature = '{}, Austin, TX'.format(feature)
 
-    geocode = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
+    geocode = geocoder.mapzen(feature, key=secrets.MAPZEN_API_KEY)
 
-    geocoded_address = {
-        'geocoded_address': geocode.address,
+    geocoded_feature = {
+        'geocoded_feature': geocode.feature,
         'geocoder': 'mapzen',
         'lat': geocode.lat,
         'lng': geocode.lng,
@@ -45,10 +45,10 @@ def geocode_from_mapzen(permit_location):
         'state': geocode.state,
         'postal_code': geocode.postal,
     }
-    return geocoded_address
+    return geocoded_feature
 
 
-def geocode_from_coa_address_server(permit_location):
+def geocode_from_coa_feature_server(permit_location):
     permit_location = permit_location.split('UNIT')[0]
     permit_location = permit_location.split('BLDG')[0]
     permit_location = permit_location.strip()
