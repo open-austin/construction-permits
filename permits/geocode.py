@@ -26,28 +26,6 @@ def geocode_address(permit_location):
     return geocoded_feature
 
 
-def geocode_from_mapzen(permit_location):
-    feature = permit_location.upper().strip()
-    for scrubber in SCRUBBERS:
-        feature = feature.replace(scrubber, ' ')
-    feature = '{}, Austin, TX'.format(feature)
-
-    geocode = geocoder.mapzen(feature, key=secrets.MAPZEN_API_KEY)
-
-    geocoded_feature = {
-        'geocoded_feature': geocode.feature,
-        'geocoder': 'mapzen',
-        'lat': geocode.lat,
-        'lng': geocode.lng,
-        'accuracy': geocode.accuracy,
-        'city': geocode.city,
-        'county': getattr(geocode, 'county', ''),
-        'state': geocode.state,
-        'postal_code': geocode.postal,
-    }
-    return geocoded_feature
-
-
 def geocode_from_coa_feature_server(permit_location):
     permit_location = permit_location.split('UNIT')[0]
     permit_location = permit_location.split('BLDG')[0]
@@ -75,6 +53,27 @@ def geocode_from_coa_feature_server(permit_location):
             'postal_code': zipcode,
             'state': 'Texas',
         }
+
+
+def geocode_from_mapzen(permit_location):
+    address = permit_location.upper().strip()
+    for scrubber in SCRUBBERS:
+        address = address.replace(scrubber, ' ')
+    address = '{}, Austin, TX'.format(address)
+
+    geocode = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
+    geocoded_feature = {
+        'geocoded_address': geocode.address,
+        'geocoder': 'mapzen',
+        'lat': geocode.lat,
+        'lng': geocode.lng,
+        'accuracy': geocode.accuracy,
+        'city': geocode.city,
+        'county': getattr(geocode, 'county', ''),
+        'state': geocode.state,
+        'postal_code': geocode.postal,
+    }
+    return geocoded_feature
 
 
 def city_name_for_point(lng, lat):
