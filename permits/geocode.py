@@ -69,6 +69,9 @@ def geocode_from_coa_feature_server(permit_location):
     street_name = _split_off_street_name(permit_location)
     json_response= _query_coa_feature_server(street_name)
 
+    if json_response is None:
+        return
+
     feature = _get_single_feature_only(json_response)
     if feature:
         lng, lat = feature.get('geometry').get('coordinates')
