@@ -4,6 +4,8 @@ A searchable database of construction permits issued by the City of Austin since
 
 Data is scraped from http://www.austintexas.gov/oss_permits/permit_report.cfm on a daily basis.
 
+:information_source: The City of Austin has started publishing permits to their open data portal at https://data.austintexas.gov/Permitting/Building-Permits/q7kv-7293.
+
 ## Usage
 
 Install the requirements:
