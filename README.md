@@ -42,7 +42,7 @@ Deploy to AWS Lambda:
 
 Twice a day an AWS lambda job runs `permits.lambda_handler`.
 
-It fetches yesterday's permits, geocodes the addresses, and then uses the GitHub API to commit the data to this repo. This code is Python 2 because is run as an AWS Lambda. Another side effect of being a lambda is we're trying to avoid dependencies with C extensions like pandas.
+It fetches yesterday's permits, geocodes the addresses, and then uses the GitHub API to commit the data to this repo. This code is Python 2 because is run on AWS Lambda. Another side effect of being a lambda is we're trying to avoid dependencies with C extensions like pandas.
 
 ## License
 
