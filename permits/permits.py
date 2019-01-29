@@ -9,19 +9,15 @@
 import csv
 import logging
 from StringIO import StringIO
-import time
 
 import arrow
-import geocoder
 import requests
 
+import geocode
 import github
 from html2csv import html2csv
 import secrets
 
-ADDRESS_CACHE = {}
-SLEEP_TIME = 0.2
-SCRUBBERS = [' EB', ' SB', ' NB', ' WB', 'SVRD', ' AKA ', ' aka ', 'Blk', 'Block of ', '\'', 'UNK ']
 
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
@@ -60,41 +56,15 @@ def parse_html(html):
 
 def parse_permits(reader):
     rows = []
-    reader = [row for row in reader]
 
     for row in reader:
-        address = geocode_address(row['permit_location'])
-        if address and address.lat:
-            row['geocoded_address'] = address.address
-            row['lat'] = address.lat
-            row['lng'] = address.lng
-            row['accuracy'] = address.accuracy
-            row['city'] = address.city
-            row['county'] = getattr(address, 'county', '')
-            row['state'] = address.state
-            row['postal_code'] = address.postal
+        address = geocode.geocode_address(row['permit_location'])
+        if address and address.get('lat'):
+            row.update(address)
 
         rows.append(row)
-
     return rows
 
-
-def geocode_address(permit_location):
-    if permit_location in ADDRESS_CACHE:
-        return ADDRESS_CACHE[permit_location]
-    if type(permit_location) is not str:
-        return
-
-    address = permit_location.upper().strip()
-    for scrubber in SCRUBBERS:
-        address = address.replace(scrubber, ' ')
-    address = '{}, Austin, TX'.format(address)
-
-    geocoded_address = geocoder.mapzen(address, key=secrets.MAPZEN_API_KEY)
-    ADDRESS_CACHE[permit_location] = geocoded_address
-    time.sleep(SLEEP_TIME)
-
-    return geocoded_address
 
 
 def write_permits_file(filename, rows, fieldnames):
@@ -124,7 +94,7 @@ def store_permits_for_date(date, in_lambda=False):
         rows = parse_permits(reader)
 
         filename = 'data/{}/{}.csv'.format(date.format('YYYY'), date.format('YYYY-MM-DD'))
-        fieldnames = reader.fieldnames + ['geocoded_address', 'lat', 'lng', 'accuracy', 'city', 'postal_code', 'state', 'county']
+        fieldnames = reader.fieldnames + ['geocoded_address', 'geocoder', 'lat', 'lng', 'accuracy', 'city', 'postal_code', 'state', 'county']
 
         if not in_lambda:
             write_permits_file(filename, rows, fieldnames)
@@ -138,6 +108,7 @@ def store_permits_for_date(date, in_lambda=False):
 def lambda_handler(event, context):
     today = arrow.now('America/Chicago')
     store_permits_for_date(today, in_lambda=True)
+
 
 if __name__ == '__main__':
     today = arrow.now('America/Chicago')
